@@ -1,0 +1,10 @@
+/* ===================================================================
+   GLOBAL RESET AND BOX MODEL
+   Ensures consistent box-sizing across all elements
+=================================================================== */
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
