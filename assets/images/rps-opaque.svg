@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="globes" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420.02 449.95">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #92278f;
+        opacity: .15;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="cls-1" cx="54.19" cy="129.05" r="34.82"/>
+    <circle class="cls-1" cx="47.62" cy="17.72" r="16.9"/>
+    <circle class="cls-1" cx="8.05" cy="8.05" r="8.05"/>
+    <circle class="cls-1" cx="392.59" cy="386.75" r="23.36"/>
+    <circle class="cls-1" cx="125.61" cy="89.56" r="14.46"/>
+    <circle class="cls-1" cx="26.02" cy="214.31" r="5.49"/>
+    <circle class="cls-1" cx="51.12" cy="211.03" r="13.4"/>
+    <circle class="cls-1" cx="89.96" cy="376.79" r="13.4"/>
+    <circle class="cls-1" cx="40.44" cy="369.36" r="13.4"/>
+  </g>
+  <g>
+    <circle class="cls-1" cx="220.7" cy="415.13" r="34.82"/>
+    <circle class="cls-1" cx="150.79" cy="373.02" r="14.46"/>
+    <circle class="cls-1" cx="308.63" cy="396.89" r="5.49"/>
+    <circle class="cls-1" cx="293.24" cy="376.79" r="13.4"/>
+  </g>
+  <g>
+    <circle class="cls-1" cx="385.2" cy="127.88" r="34.82"/>
+    <circle class="cls-1" cx="383.69" cy="209.48" r="14.46"/>
+    <circle class="cls-1" cx="325.44" cy="60.85" r="5.49"/>
+    <circle class="cls-1" cx="315.73" cy="84.23" r="13.4"/>
+  </g>
+</svg>
