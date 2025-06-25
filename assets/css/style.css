@@ -26,3 +26,13 @@ body {
    width: 100%;
    height: 100%;
 }
+
+.card-flip {
+   position: relative;
+   width: 100%;
+   max-width: 400px;
+   height: 300px;
+   margin: auto;
+   transition: transform 0.8s; /* Smooth flip transition */
+   transform-style: preserve-3d; /* Keeps child elements in 3D */
+}
