@@ -13,3 +13,16 @@ body {
    /* Light purple background tint for subtle visual texture */
    background-color: rgba(189, 33, 232, 0.1);
 }
+
+/* ===================================================================
+   CARD LAYOUT AND FLIP EFFECTS
+   Handles 3D card flip animation and layout structure
+=================================================================== */
+
+.card-container {
+   perspective: 1000px; /* Enables 3D space for child elements */
+   position: relative;
+   margin-top: 2rem;
+   width: 100%;
+   height: 100%;
+}
