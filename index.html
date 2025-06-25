@@ -4,68 +4,67 @@
 
      <head>
           <!-- Meta settings for proper encoding and responsive layout -->
-          <meta charset="UTF-8">
+          <meta charset="UTF-8" />
           <meta name="viewport"
-               content="width=device-width, initial-scale=1.0">
+               content="width=device-width, initial-scale=1.0" />
           <title>Rock Paper Scissors | The Game</title>
 
           <!-- Google Fonts setup -->
           <link rel="preconnect"
-               href="https://fonts.googleapis.com">
+               href="https://fonts.googleapis.com" />
           <link rel="preconnect"
                href="https://fonts.gstatic.com"
-               crossorigin>
+               crossorigin />
           <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
-               rel="stylesheet">
+               rel="stylesheet" />
 
           <!-- Bootstrap CSS CDN -->
           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
                rel="stylesheet"
                integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
-               crossorigin="anonymous">
+               crossorigin="anonymous" />
 
           <!-- Custom CSS file -->
           <link rel="stylesheet"
-               href="./assets/css/style.css">
+               href="./assets/css/style.css" />
      </head>
 
      <body>
-
-          <div class="container card-container ">
-
+          <div class="container card-container">
                <div id="game-title">
-                    <h1 class="text-center mt-lg-2 ">Rock Paper Scissors</h1>
+                    <h1 class="text-center mt-lg-2">Rock Paper Scissors</h1>
                     <p class="text-center fs-1">The Frontend Faceoff</p>
                </div>
 
                <!-- Game flip card container -->
                <div id="flipCard"
                     class="flip-card-inner card-flip">
-
                     <!-- Card Front Face -->
                     <div class="card-face card-front d-flex flex-column justify-content-center align-items-center">
-
                          <!-- Top rotating RPS images -->
-                         <div class=" intro d-flex justify-content-center align-items-center">
+                         <div class="intro d-flex justify-content-center align-items-center">
                               <img class="rotating-image image-top mb-3"
                                    id="rps-img"
                                    src="./assets/images/rps.svg"
-                                   alt="Rock Paper Scissors hand poster Base Image">
+                                   alt="Rock Paper Scissors hand poster Base Image" />
                               <img class="rotating-image image-bottom"
                                    src="./assets/images/rps-opaque.png"
-                                   alt="Image Bottom">
+                                   alt="Image Bottom" />
                          </div>
 
                          <!-- Challenge tagline -->
                          <div class="challenge-text mt-md-5">
-                              <p class="fw-bold">Choose your weapon and beat the Machine!</p>
+                              <p class="fw-bold">
+                                   Choose your weapon and beat the Machine!
+                              </p>
                          </div>
 
                          <!-- Trivia paragraph -->
                          <div class="trivia text-center mb-3">
                               <p>
-                                   <strong>Rock, Paper, Scissors</strong> originated in ancient China over 2,000 years
-                                   ago. It became popular in Japan as Jan-Ken and uses symbols that beat one and lose to
+                                   <strong>Rock, Paper, Scissors</strong> originated in
+                                   ancient China over 2,000 years ago. It became popular in
+                                   Japan as Jan-Ken and uses symbols that beat one and lose to
                                    another, forming a non-transitive cycle.
                               </p>
                          </div>
@@ -73,48 +72,36 @@
                          <!-- Call-to-action button -->
                          <div>
                               <button id="flipBtn"
-                                   class="btn btn-success w-100 w-md-auto flipBtn text-uppercase fw-bold mb-4">Game On!</button>
+                                   class="btn btn-success w-100 w-md-auto flipBtn text-uppercase fw-bold mb-4">
+                                   Game On!
+                              </button>
                          </div>
 
                          <!-- Footer section for front face -->
                          <footer class="text-center py-3">
                               <div class="container">
-                                   <p class="mb-1">&copy; 2025 Rock-Paper-Scissors Game. All Rights Reserved. Developed
-                                        by <strong>The App Alchemy.</strong></p>
+                                   <p class="mb-1">
+                                        &copy; 2025 Rock-Paper-Scissors Game. All Rights
+                                        Reserved. Developed by <strong>The App Alchemy.</strong>
+                                   </p>
                               </div>
                          </footer>
-
-                         
                     </div>
                     <!-- End of Card Front -->
 
+                    <!-- Card Back Face -->
+                    <div
+                         class="card-face card-back d-flex flex-column justify-content-space-between align-items-center">
+
+                    </div>>
+
 
                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           </div>
-
-
-
-
-
 
           <!-- JavaScript logic and confetti library -->
           <script src="./assets/js/script.js"></script>
           <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
-
      </body>
 
 </html>
