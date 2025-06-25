@@ -39,6 +39,7 @@ body {
 
 .flip-card-inner.flipped {
    transform: rotateY(180deg); /* Rotates card to reveal back */
+<<<<<<< HEAD
 }
 
 .card-face {
@@ -49,3 +50,6 @@ body {
    border-radius: 0.5rem;
    padding-bottom: 32px;
 }
+=======
+}
+>>>>>>> 9e9fbcbe138894fa6c220ade0a67dc465aefa5ab
