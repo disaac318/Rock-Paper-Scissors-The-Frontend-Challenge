@@ -4,29 +4,26 @@
 
      <head>
           <!-- Meta settings for proper encoding and responsive layout -->
-          <meta charset="UTF-8" />
-          <meta name="viewport"
-               content="width=device-width, initial-scale=1.0" />
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <title>Rock Paper Scissors | The Game</title>
 
           <!-- Google Fonts setup -->
-          <link rel="preconnect"
-               href="https://fonts.googleapis.com" />
-          <link rel="preconnect"
-               href="https://fonts.gstatic.com"
-               crossorigin />
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com"
+               crossorigin >
           <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
-               rel="stylesheet" />
+               rel="stylesheet">
 
           <!-- Bootstrap CSS CDN -->
           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
                rel="stylesheet"
                integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
-               crossorigin="anonymous" />
+               crossorigin="anonymous">
 
           <!-- Custom CSS file -->
           <link rel="stylesheet"
-               href="./assets/css/style.css" />
+               href="./assets/css/style.css">
      </head>
 
      <body>
@@ -46,10 +43,10 @@
                               <img class="rotating-image image-top mb-3"
                                    id="rps-img"
                                    src="./assets/images/rps.svg"
-                                   alt="Rock Paper Scissors hand poster Base Image" />
+                                   alt="Rock Paper Scissors hand poster Base Image" >
                               <img class="rotating-image image-bottom"
                                    src="./assets/images/rps-opaque.png"
-                                   alt="Image Bottom" />
+                                   alt="Image Bottom">
                          </div>
 
                          <!-- Challenge tagline -->
@@ -92,10 +89,8 @@
                     <!-- Card Back Face -->
                     <div
                          class="card-face card-back d-flex flex-column justify-content-space-between align-items-center">
-
                          <!-- Game logic section -->
                          <div class="match text-center">
-
                               <!-- Scoreboard -->
                               <div class="score">
                                    <div class="player-score">
@@ -126,11 +121,17 @@
                               <!-- Option buttons -->
                               <div class="options d-flex">
                                    <button class="btn btn-warning flex-fill text-capitalize"
-                                        type="button">rock</button>
+                                        type="button">
+                                        rock
+                                   </button>
                                    <button class="btn btn-warning flex-fill text-capitalize"
-                                        type="button">paper</button>
+                                        type="button">
+                                        paper
+                                   </button>
                                    <button class="btn btn-warning flex-fill text-capitalize"
-                                        type="button">scissors</button>
+                                        type="button">
+                                        scissors
+                                   </button>
                               </div>
 
                               <!-- Result display area -->
@@ -138,21 +139,22 @@
                                    id="result"></div>
 
                               <button class="reset-btn btn btn-warning"
-                                   id="reset">Reset Game</button>
-
+                                   id="reset">
+                                   Reset Game
+                              </button>
                          </div>
 
                          <!-- Footer section for back face -->
                          <footer class="text-center py-2">
                               <div class="container">
-                                   <p class="mb-1">&copy; 2025 Rock-Paper-Scissors Game. All Rights Reserved. Developed
-                                        by <strong>The App Alchemy.</strong></p>
+                                   <p class="mb-1">
+                                        &copy; 2025 Rock-Paper-Scissors Game. All Rights
+                                        Reserved. Developed by <strong>The App Alchemy.</strong>
+                                   </p>
                               </div>
                          </footer>
-
                     </div>
                     <!-- end of Card Back    -->
-
                </div>
           </div>
 
@@ -173,7 +175,6 @@
           <audio id="shake-sound"
                src="./assets/sounds/shake.mp3"
                preload="auto"></audio>
-
 
           <!-- JavaScript logic and confetti library -->
           <script src="./assets/js/script.js"></script>
