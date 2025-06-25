@@ -10,5 +10,6 @@
 }
 
 body {
-     background-color: chocolate;
+   /* Light purple background tint for subtle visual texture */
+   background-color: rgba(189, 33, 232, 0.1);
 }
