@@ -155,3 +155,7 @@ body {
    font-size: 5rem;
 }
 
+#game-title p {
+   font-size: 2rem;
+   text-transform: uppercase;
+}
