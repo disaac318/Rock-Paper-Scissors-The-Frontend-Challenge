@@ -175,7 +175,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     button.addEventListener("click", () => {
                          if (isGameOver) return;
 
-                         const playerChoice = button.textContent.toLowerCase();
+                         const playerChoice = button.textContent.trim().toLowerCase();
                          const computerChoice = choices[Math.floor(Math.random() * 3)];
 
                          // Animate hands before revealing result
