@@ -239,3 +239,8 @@ footer {
 .computer-hand {
    transform: rotateY(180deg); /* Flips computer hand horizontally */
 }
+
+@keyframes shakeComputer {
+   0%, 25%, 50%, 75%, 100% { transform: rotateY(180deg) translateY(0); }
+   15%, 35%, 65%, 85% { transform: rotateY(180deg) translateY(-50px); }
+}
