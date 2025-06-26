@@ -1,3 +1,4 @@
+'use strict';
 // Rock-Paper-Scissors Game Script
 // Author: Dean Isaac
 // Description: Interactive RPS game with animations, sound effects, and score logic.
@@ -56,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
                });
           };
 
-           // Safely play a sound if it exists
+          // Safely play a sound if it exists
           const playSound = key => {
                sounds[key]?.play();
           };
@@ -150,7 +151,7 @@ document.addEventListener("DOMContentLoaded", () => {
                })();
           };
 
-           // Reset the state to allow replaying
+          // Reset the state to allow replaying
           const resetGame = () => {
                playerScore = 0;
                computerScore = 0;
@@ -175,8 +176,12 @@ document.addEventListener("DOMContentLoaded", () => {
                     button.addEventListener("click", () => {
                          if (isGameOver) return;
 
-                         const playerChoice = button.textContent.trim().toLowerCase();
-                         const computerChoice = choices[Math.floor(Math.random() * 3)];
+                         const playerChoice = button.textContent
+                              .trim()
+                              .toLowerCase();
+
+                         const randomIndex = Math.floor(Math.random() * choices.length);
+                         const computerChoice = choices[randomIndex];
 
                          // Animate hands before revealing result
                          setHands("rock", "rock");
@@ -195,7 +200,7 @@ document.addEventListener("DOMContentLoaded", () => {
                resetBtn?.addEventListener("click", resetGame);
           };
 
-        // Initialize the game when the start button is clicked
+          // Initialize the game when the start button is clicked
           initializeGame(); // Begin game setup
      };
 
