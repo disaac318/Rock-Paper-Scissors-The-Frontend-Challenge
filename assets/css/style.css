@@ -216,3 +216,14 @@ body {
 footer {
    font-size: 0.9rem;
 }
+
+/* ===================================================================
+   HAND ANIMATION
+   Animates player's and computer's hands
+=================================================================== */
+.hands img {
+   width: 150px;
+   height: 150px;
+   object-fit: contain;
+   transition: transform 0.2s ease-in-out;
+}
