@@ -72,3 +72,9 @@ body {
    margin: 0.5rem;
 }
 
+.flipBtn {
+   background-color: #ffc107; /* Amber color for call-to-action */
+   color:  #c6069c;
+   padding: 0.5rem 6rem;
+   transition: background-color 0.3s ease;
+}
