@@ -150,6 +150,17 @@ document.addEventListener("DOMContentLoaded", () => {
                })();
           };
 
+           // Reset the state to allow replaying
+          const resetGame = () => {
+               playerScore = 0;
+               computerScore = 0;
+               isGameOver = false;
+               updateScoreboard();
+               setHands("rock", "rock");
+               resultDisplay.textContent = "Choose your weapon!";
+               resultDisplay.classList.remove("winner-slow-blink");
+          };
+
           
 
 
