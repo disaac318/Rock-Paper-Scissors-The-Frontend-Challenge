@@ -150,3 +150,8 @@ body {
    font-family: "Acme", sans-serif;
    color: #a20380;
 }
+
+#game-title h1 {
+   font-size: 5rem;
+}
+
