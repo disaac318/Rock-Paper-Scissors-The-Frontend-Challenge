@@ -61,6 +61,12 @@ document.addEventListener("DOMContentLoaded", () => {
                sounds[key]?.play();
           };
 
+          // Set the hand image icons according to selected choice
+          const setHands = (player, computer) => {
+               playerHand.src = `./assets/images/${player}.svg`;
+               computerHand.src = `./assets/images/${computer}.svg`;
+          };
+
 
 
           
