@@ -67,6 +67,61 @@ document.addEventListener("DOMContentLoaded", () => {
                computerHand.src = `./assets/images/${computer}.svg`;
           };
 
+          const decideWinner = (player, computer) => {
+               let message = "";
+
+               if (player === computer) {
+                    message = `It's a Draw! You both chose ${player}.`;
+                    playSound("draw");
+               } else {
+                    const playerWins =
+                         (player === "rock" && computer === "scissors") ||
+                         (player === "paper" && computer === "rock") ||
+                         (player === "scissors" && computer === "paper");
+
+                    if (playerWins) {
+                         playerScore++;
+                         playSound("win");
+                    } else {
+                         computerScore++;
+                         playSound("lose");
+                    }
+
+                    updateScoreboard();
+
+                    // Check for end-game condition (first to 3)
+                    if (playerScore === 3 || computerScore === 3) {
+                         isGameOver = true;
+
+                         if (playerScore === 3) {
+                              message = "🎉 You won the match!";
+                              celebrate();
+                              playSound("victory");
+                         } else {
+                              message = "😭 You lost the match!";
+                              defeatRain();
+                              playSound("defeat");
+                         }
+
+                         resultDisplay.classList.add("winner-large");
+                    } else {
+                         // Mid-match win/lose message
+                         message = playerWins
+                              ? `You win! ${player} beats ${computer}.`
+                              : `You lose! ${computer} beats ${player}.`;
+                         resultDisplay.classList.remove("winner-large");
+                    }
+               }
+
+               // Display result with animation
+               resultDisplay.textContent = message;
+               resultDisplay.classList.remove("winner-slow-blink");
+               void resultDisplay.offsetWidth; // Reflow to restart animation
+               resultDisplay.classList.add("winner-slow-blink");
+          };
+
+          
+
 
 
           
