@@ -14,15 +14,16 @@ document.addEventListener("DOMContentLoaded", () => {
           wooshSound.play();
      });
 
+     // Core game logic encapsulated in a function (modular design)
+     const game = () => {
+          let playerScore = 0;
+          let computerScore = 0;
+          let isGameOver = false;
 
+          
 
+          initializeGame(); // Begin game setup
+     };
 
-
-
-
-
-
-
-
-     
+     game(); // Launch the main game logic
 });
