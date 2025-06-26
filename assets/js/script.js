@@ -120,6 +120,36 @@ document.addEventListener("DOMContentLoaded", () => {
                resultDisplay.classList.add("winner-slow-blink");
           };
 
+          // 🎉 Confetti celebration effect (win)
+          const celebrate = () => {
+               if (typeof confetti !== "function") return;
+               const end = Date.now() + 3000;
+               (function frame() {
+                    confetti({ particleCount: 5, angle: 60, spread: 55, origin: { x: 0 } });
+                    confetti({ particleCount: 5, angle: 120, spread: 55, origin: { x: 1 } });
+                    if (Date.now() < end) requestAnimationFrame(frame);
+               })();
+          };
+
+          // 😭 Defeat animation with dark confetti (lose)
+          const defeatRain = () => {
+               if (typeof confetti !== "function") return;
+               const end = Date.now() + 5000;
+               (function frame() {
+                    confetti({
+                         particleCount: 2,
+                         angle: 90,
+                         spread: 30,
+                         startVelocity: 10,
+                         gravity: 0.3,
+                         ticks: 400,
+                         origin: { x: Math.random(), y: 0 },
+                         colors: ["#4b6cb7", "#182848", "#555"]
+                    });
+                    if (Date.now() < end) requestAnimationFrame(frame);
+               })();
+          };
+
           
 
 
