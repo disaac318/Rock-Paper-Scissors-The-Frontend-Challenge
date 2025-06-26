@@ -302,4 +302,13 @@ footer {
       width: 100%;
    }
 
+      .score h2,
+   .score p,
+   .player-score h2,
+   .computer-score h2,
+   .player-score p,
+   .computer-score p {
+      font-size: 1.5rem;
+   }
+
    
