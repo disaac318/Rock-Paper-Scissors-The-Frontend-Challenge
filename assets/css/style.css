@@ -258,3 +258,16 @@ footer {
 .winner-slow-blink {
    animation: slowBlink 2s ease-in-out infinite;
 }
+
+/* ===================================================================
+   MEDIA QUERIES
+   Responsive design for tablets and mobile
+=================================================================== */
+
+@media (max-width: 768px) {
+   #game-title h1 {
+      font-size: 3rem;
+      text-align: center;
+   }
+
+   
