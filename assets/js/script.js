@@ -1,19 +1,20 @@
-"use strict";
 // Rock-Paper-Scissors Game Script
-//Interactive RPS game with animations, sound effects, and score logic.
+// Author: Dean Isaac
+// Description: Interactive RPS game with animations, sound effects, and score logic.
 
-document.addEventListener("DOMContentLoaded", function () {
+"use strict";
+
+document.addEventListener("DOMContentLoaded", () => {
      // Get flip button and card for intro-to-match screen transition
      const flipBtn = document.getElementById("flipBtn");
      const flipCard = document.getElementById("flipCard");
      const wooshSound = document.getElementById("wooshSound");
 
      // Flip the card to show the match screen when flip button is clicked
-     flipBtn.addEventListener("click", function () {
+     flipBtn.addEventListener("click", () => {
           flipCard.classList.add("flipped");
           wooshSound.play();
      });
-
 
      // Core game logic encapsulated in a function (modular design)
      const game = () => {
@@ -123,11 +124,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
           // 🎉 Confetti celebration effect (win)
           const celebrate = () => {
-               if (typeof confetti !== "function") {
-                    return;
-               }
+               if (typeof confetti !== "function") return;
                const end = Date.now() + 3000;
-               // Create a confetti effect with two angles
                (function frame() {
                     confetti({
                          particleCount: 5,
@@ -141,17 +139,13 @@ document.addEventListener("DOMContentLoaded", function () {
                          spread: 55,
                          origin: { x: 1 },
                     });
-                    if (Date.now() < end) {
-                         requestAnimationFrame(frame);
-                    }
+                    if (Date.now() < end) requestAnimationFrame(frame);
                })();
           };
 
           // 😭 Defeat animation with dark confetti (lose)
           const defeatRain = () => {
-               if (typeof confetti !== "function") {
-                    return;
-               }
+               if (typeof confetti !== "function") return;
                const end = Date.now() + 5000;
                (function frame() {
                     confetti({
@@ -164,9 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
                          origin: { x: Math.random(), y: 0 },
                          colors: ["#4b6cb7", "#182848", "#555"],
                     });
-                    if (Date.now() < end) {
-                         requestAnimationFrame(frame);
-                    }
+                    if (Date.now() < end) requestAnimationFrame(frame);
                })();
           };
 
