@@ -235,3 +235,7 @@ footer {
    justify-content: space-around;
    align-items: center;
 }
+
+.computer-hand {
+   transform: rotateY(180deg); /* Flips computer hand horizontally */
+}
