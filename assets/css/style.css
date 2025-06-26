@@ -49,3 +49,7 @@ body {
    border-radius: 0.5rem;
    padding-bottom: 32px;
 }
+
+.card-back {
+   transform: rotateY(180deg); /* Hidden back face */
+}
