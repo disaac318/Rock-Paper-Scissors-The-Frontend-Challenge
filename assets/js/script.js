@@ -161,16 +161,41 @@ document.addEventListener("DOMContentLoaded", () => {
                resultDisplay.classList.remove("winner-slow-blink");
           };
 
-          
+          // Game setup — attaches events and initializes logic
+          const initializeGame = () => {
+               if (!startButton || !introScreen || !matchScreen) return;
 
+               // Ensure hands reset animations cleanly
+               hands.forEach(hand => hand.addEventListener("animationend", () => {
+                    hand.style.animation = "";
+               }));
 
+               // Add event listeners for game choices
+               options.forEach(button => {
+                    button.addEventListener("click", () => {
+                         if (isGameOver) return;
 
-          
+                         const playerChoice = button.textContent.toLowerCase();
+                         const computerChoice = choices[Math.floor(Math.random() * 3)];
 
+                         // Animate hands before revealing result
+                         setHands("rock", "rock");
+                         playSound("shake");
+                         playerHand.style.animation = "shakePlayer 2s ease";
+                         computerHand.style.animation = "shakeComputer 2s ease";
 
+                         setTimeout(() => {
+                              setHands(playerChoice, computerChoice);
+                              decideWinner(playerChoice, computerChoice);
+                         }, 2000);
+                    });
+               });
 
-          
+               // Handle game reset
+               resetBtn?.addEventListener("click", resetGame);
+          };
 
+        // Initialize the game when the start button is clicked
           initializeGame(); // Begin game setup
      };
 
