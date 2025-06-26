@@ -56,7 +56,12 @@ document.addEventListener("DOMContentLoaded", () => {
                });
           };
 
-          
+           // Safely play a sound if it exists
+          const playSound = key => {
+               sounds[key]?.play();
+          };
+
+
 
           
 
