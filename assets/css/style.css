@@ -315,3 +315,8 @@ footer {
       flex-direction: column;
       gap: 0.2rem;
    }
+
+     .btn {
+      width: 90%;
+      margin: 0.5rem auto;
+   }
