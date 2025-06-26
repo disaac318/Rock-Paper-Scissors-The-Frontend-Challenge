@@ -53,3 +53,22 @@ body {
 .card-back {
    transform: rotateY(180deg); /* Hidden back face */
 }
+
+/* ===================================================================
+   BUTTONS
+   General and specific styles for interactivity
+=================================================================== */
+
+.btn {
+   display: inline-block;
+   padding: 8px 24px;
+   font-size: 1rem;
+   color: #fff;
+   background-color: #c6069c;
+   border: none;
+   border-radius: 3rem;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+   margin: 0.5rem;
+}
+
