@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 // Rock-Paper-Scissors Game Script
 // Author: Dean Isaac
 // Description: Interactive RPS game with animations, sound effects, and score logic.
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
                computerScoreElem.textContent = computerScore;
 
                // Simple score-change animation
-               [playerScoreElem, computerScoreElem].forEach(el => {
+               [playerScoreElem, computerScoreElem].forEach((el) => {
                     el.classList.add("score-animate");
                     setTimeout(() => el.classList.remove("score-animate"), 500);
                });
