@@ -249,3 +249,8 @@ footer {
    0%, 25%, 50%, 75%, 100% { transform: translateY(0); }
    15%, 35%, 65%, 85% { transform: translateY(-50px); }
 }
+
+@keyframes slowBlink {
+   0%, 100% { opacity: 1; }
+   50% { opacity: 0; }
+}
