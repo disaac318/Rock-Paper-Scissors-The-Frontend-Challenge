@@ -187,5 +187,5 @@ body {
 
 .score h2 {
    font-size: 2rem;
-   color: darkgreen;
+   color: #006400; /* Dark green for score headings */
 }
