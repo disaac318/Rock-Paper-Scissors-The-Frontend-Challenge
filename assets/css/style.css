@@ -84,3 +84,12 @@ body {
   color: #fff; 
 }
 
+.reset-btn {
+   width: 100%;
+   margin-top: 1rem;
+   color: darkgreen;
+   border: none;
+   background-color: transparent;
+}
+
+
