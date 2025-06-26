@@ -167,3 +167,11 @@ body {
    font-weight: 100;
    text-transform: uppercase;
 }
+
+.trivia p {
+   width: 100%;
+   font-size: 1.1rem;
+   line-height: 1.5rem;
+   color: #424042;
+   margin-top: 1rem;
+}
