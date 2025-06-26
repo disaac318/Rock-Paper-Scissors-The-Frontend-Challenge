@@ -78,3 +78,9 @@ body {
    padding: 0.5rem 6rem;
    transition: background-color 0.3s ease;
 }
+
+.flipBtn:hover {
+  background-color: #c6069c; /* Inverts colors on hover */
+  color: #fff; 
+}
+
