@@ -125,4 +125,6 @@ body {
    will-change: transform;
 }
 
-
+.image-bottom {
+   z-index: 1; /* Stays below the spinning image */
+}
