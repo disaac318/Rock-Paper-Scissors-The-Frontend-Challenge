@@ -128,3 +128,8 @@ body {
 .image-bottom {
    z-index: 1; /* Stays below the spinning image */
 }
+
+@keyframes spin {
+   from { transform: rotate(0deg); }
+   to { transform: rotate(360deg); }
+}
