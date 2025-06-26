@@ -30,6 +30,20 @@ document.addEventListener("DOMContentLoaded", () => {
                shake: document.getElementById("shake-sound")
           };
 
+          // Cached DOM references for performance and readability
+          const startButton = document.querySelector(".flipBtn");
+          const introScreen = document.querySelector(".intro");
+          const matchScreen = document.querySelector(".match");
+          const options = document.querySelectorAll(".options button");
+          const playerHand = document.querySelector(".player-hand");
+          const computerHand = document.querySelector(".computer-hand");
+          const hands = document.querySelectorAll(".hands img");
+          const playerScoreElem = document.querySelector(".player-score p");
+          const computerScoreElem = document.querySelector(".computer-score p");
+          const resultDisplay = document.querySelector(".winner");
+          const resetBtn = document.getElementById("reset");
+          const choices = ["rock", "paper", "scissors"];
+
           
 
 
