@@ -133,3 +133,20 @@ body {
    from { transform: rotate(0deg); }
    to { transform: rotate(360deg); }
 }
+
+/* ===================================================================
+   TYPOGRAPHY
+   Styling headings, scores, and game messages
+=================================================================== */
+
+#game-title h1,
+#game-title p,
+.challenge-text,
+.score p,
+.score h2,
+.player-score h2,
+.computer-score h2,
+.winner {
+   font-family: "Acme", sans-serif;
+   color: #a20380;
+}
