@@ -20,6 +20,20 @@ document.addEventListener("DOMContentLoaded", () => {
           let computerScore = 0;
           let isGameOver = false;
 
+          // Audio references for feedback
+          const sounds = {
+               win: document.getElementById("win-sound"),
+               lose: document.getElementById("lose-sound"),
+               draw: document.getElementById("draw-sound"),
+               victory: document.getElementById("victory-sound"),
+               defeat: document.getElementById("defeat-sound"),
+               shake: document.getElementById("shake-sound")
+          };
+
+          
+
+
+
           
 
           initializeGame(); // Begin game setup
