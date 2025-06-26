@@ -227,3 +227,11 @@ footer {
    object-fit: contain;
    transition: transform 0.2s ease-in-out;
 }
+
+.hands,
+.options {
+   margin-top: 34px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
