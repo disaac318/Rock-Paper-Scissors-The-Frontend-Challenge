@@ -44,6 +44,20 @@ document.addEventListener("DOMContentLoaded", () => {
           const resetBtn = document.getElementById("reset");
           const choices = ["rock", "paper", "scissors"];
 
+          // Updates the scoreboard and triggers animation
+          const updateScoreboard = () => {
+               playerScoreElem.textContent = playerScore;
+               computerScoreElem.textContent = computerScore;
+
+               // Simple score-change animation
+               [playerScoreElem, computerScoreElem].forEach(el => {
+                    el.classList.add("score-animate");
+                    setTimeout(() => el.classList.remove("score-animate"), 500);
+               });
+          };
+
+          
+
           
 
 
