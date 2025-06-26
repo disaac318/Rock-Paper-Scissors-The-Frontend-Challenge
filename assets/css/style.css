@@ -193,3 +193,11 @@ body {
 .score p {
    font-size: 2rem;
 }
+
+.player-score p,
+.computer-score p {
+   font-weight: 800;
+   color: #f7be04; /* Golden yellow for scores */
+   text-align: center;
+   font-size: 4rem;
+}
