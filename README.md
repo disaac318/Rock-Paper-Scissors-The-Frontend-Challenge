@@ -5,7 +5,7 @@ Milestone Project 2: Rock Paper Scissors Game An interactive Rock Paper Scissors
 
 ![Mockup image](docs/wireframes/MockUp.png)
 
-[Live webpage](https://disaac318.github.io/Casa-Correa-Resort/)
+[Live webpage](https://disaac318.github.io/Rock-Paper-Scissors-The-Frontend-Challenge/)
 
 ## Table of Content
 
