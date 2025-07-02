@@ -3,7 +3,7 @@
 
 Milestone Project 2: Rock Paper Scissors Game An interactive Rock Paper Scissors game built with HTML, CSS, and JavaScript. It features real-time user interaction, score tracking, and responsive design, showcasing core frontend development skills.
 
-![Mockup image](docs/wireframes/Responsive Mock Up.png)
+![Mockup image](docs/wireframes/MockUp.png)
 
 [Live webpage](https://disaac318.github.io/Casa-Correa-Resort/)
 
