@@ -44,6 +44,7 @@ Milestone Project 2: Rock Paper Scissors Game An interactive Rock Paper Scissors
   - [Deployment](#deployment)
   - [Credits](#credits)
     - [Media](#media)
+    - [Images](#images)
   - [Acknowledgements](#acknowledgements)
 
 ## Project Goals 
@@ -311,6 +312,8 @@ The website was deployed using GitHub Pages by following these steps:
 
 ### Media
 All sound effects used in this project were sourced from <a href="https://pixabay.com/sound-effects/">Pixabay</a>, a platform offering high-quality, royalty-free media. I am grateful to the generous creators who share their work freely for public use.
+
+### Images
 
 The visual assets and game illustrations were designed and created by me using Adobe Illustrator. This allowed for a fully customised interface and ensured a cohesive aesthetic that aligns with the interactive and playful nature of the game.
 
