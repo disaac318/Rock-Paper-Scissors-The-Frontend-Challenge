@@ -38,7 +38,8 @@ Milestone Project 2: Rock Paper Scissors Game An interactive Rock Paper Scissors
     - [Languages](#languages)
     - [Frameworks \& Tools](#frameworks--tools)
   - [Features](#features)
-    - [Landing Card (Welcome Interface)](#landing-card-welcome-interface)
+    - [🃏 Landing Card (Welcome Interface)](#-landing-card-welcome-interface)
+    - [🎮 Flip Card 2 (Main Game Interface)](#-flip-card-2-main-game-interface)
     - [The Hero Page](#the-hero-page)
     - [Carousel](#carousel)
     - [Newsletter](#newsletter)
@@ -264,7 +265,7 @@ The website is structured to provide easy access to essential information and fe
 ## Features
 A single-page layout is used, with a flip effect that transitions into the main game environment.
 
-### Landing Card (Welcome Interface)
+###  🃏 Landing Card (Welcome Interface)
   The application opens with a visually engaging landing card, designed to welcome the player and introduce the Rock-Paper-Scissors game. This card serves as the entry point to the gameplay experience and includes:
 
 - A brief title and subtitle to establish the game’s theme.
@@ -274,9 +275,18 @@ A single-page layout is used, with a flip effect that transitions into the main 
   
 The transition from this card to the game interface is seamless, enhancing user engagement through an animated card-flip effect that simulates a dynamic and interactive experience—all while keeping the app as a single-page application (SPA).
 
+### 🎮 Flip Card 2 (Main Game Interface)
+Upon initiating the game, the landing card flips to reveal Flip Card 2, the core gameplay interface. This card presents an intuitive, animated layout where users actively engage in the Rock-Paper-Scissors challenge. Key elements include:
 
+- Animated hand gesture icons for Rock 🪨, Paper 📄, and Scissors ✂️, allowing players to make a selection
+- A real-time scoreboard that tracks player and computer scores across rounds
+- A countdown animation before each round to build anticipation
+- AI opponent logic, with adjustable difficulty (if implemented)
+- Game history log, displaying previous choices and outcomes for transparency and strategy tracking
+- Responsive layout using Bootstrap for smooth performance across devices
+Optional sound effects and celebration animations (e.g., confetti or audio) when a player wins a match.
 
-- Featured on all four pages
+All interactions remain within this single view, preserving the single-page application architecture. This card is where the game logic, UI transitions, and feedback mechanisms converge to deliver an engaging user experience.
 
 
 ![Logo and navbar](docs/features/navigation-bar.png)
