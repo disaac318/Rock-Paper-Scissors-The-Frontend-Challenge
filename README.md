@@ -63,8 +63,8 @@ Milestone Project 2: Rock Paper Scissors Game An interactive Rock Paper Scissors
 ### 🧑‍💼 Site Owner’s Goals
 - Design and develop a fully functional Rock-Paper-Scissors game that demonstrates strong command of JavaScript, HTML, CSS, and responsive design principles.
 - Showcase proficiency in front-end development by integrating animation, interactivity, and a polished user interface within a single-page application.
-- Apply modern development practices such as modular ES6 code structure, event-driven programming, and component reusability.
-- Implement visual feedback mechanisms (e.g., countdowns, transitions, score animations, and win celebrations) to enhance user engagement.
+- Apply modern development practices such as ES6 code structure, event-driven programming, and component reusability.
+- Implement visual feedback mechanisms (e.g., transitions, score animations, and win celebrations) to enhance user engagement.
 - Ensure the project reflects a high standard of accessibility, mobile responsiveness, and UI/UX design thinking.
 - Provide a smooth and enjoyable gameplay experience that encourages replayability and user retention.
 - Use this project as a portfolio piece to demonstrate technical capability, creativity, and a clear understanding of user-centered design.
@@ -76,7 +76,7 @@ The Rock-Paper-Scissors game is designed to provide an engaging and intuitive ex
 
 
 ### 🎯 Target Audience
--Casual gamers seeking a quick, entertaining distraction during breaks or downtime.
+- Casual gamers seeking a quick, entertaining distraction during breaks or downtime.
 - Beginners to gaming who appreciate simple, rule-light games with straightforward mechanics.
 - Students and professionals looking for a brief mental refresher or stress-relief tool.
 - Mobile users who want a fully responsive game playable across smartphones, tablets, and desktops.
@@ -88,8 +88,8 @@ The Rock-Paper-Scissors game is designed to provide an engaging and intuitive ex
 - Easy and intuitive gameplay: Users expect a straightforward interface where they can quickly understand how to play without prior instructions.
 - Responsive design: The game must work seamlessly across a range of devices, including smartphones, tablets, and desktops, adapting layout and controls accordingly.
 - Clear feedback: Users require immediate visual and auditory feedback after each move, including round outcomes, score updates, and celebratory effects when winning.
-- Smooth transitions: Animations such as card flips, countdowns, and gesture feedback should be fluid and not disrupt the flow of the game.
--Replayability: Users expect to easily reset or start new games.
+- Smooth transitions: Animations such as card flips and gesture feedback should be fluid and not disrupt the flow of the game.
+- Replayability: Users expect to easily reset or start new games.
 - Accessibility: Controls and visuals must be clear, legible, and usable by players with varying abilities, including appropriate contrast and button sizes.
 - Performance: The game should load quickly and run smoothly without bugs or lag, ensuring a frustration-free experience.
 - Privacy and security: Users expect that the game runs entirely client-side, without collecting personal data or requiring internet connectivity.
@@ -119,7 +119,7 @@ The Rock-Paper-Scissors game is designed to provide an engaging and intuitive ex
     
 ### First Time User Experience
 #### As a first-time user exploring the website, I want a clear and straightforward understanding of what the website offers, so I can decide quickly whether it matches my interest in fun, casual gameplay.
-- 	The landing page includes a concise headline (e.g., "Play Rock-Paper-Scissors — Instantly, Visually, and for Fun") that clearly explains the site's purpose.
+- 	The landing page includes a concise headline (e.g., "Choose your weapon and beat the Machine.") that clearly explains the site's purpose.
 - A short subheading or paragraph summarises the game (e.g., "Challenge the AI in this animated, responsive version of the classic game. No login needed.").
 - Prominent call-to-action (e.g., “Start Game” or “Flip to Play”) is visible without scrolling.
 - Flipcard animation or welcome message provides context before transitioning to gameplay.
@@ -128,8 +128,7 @@ The Rock-Paper-Scissors game is designed to provide an engaging and intuitive ex
 #### As a first-time user exploring the website, I want to understand what to expect during my stay and seek information and confirmation that my investment will result in a satisfactory and enjoyable experience.
 - The website clearly communicates its purpose (e.g., "A fun and visually engaging Rock-Paper-Scissors game you can play anytime").
 - Visual elements (like animated cards or icons) indicate interactivity, fun, and ease of use.
-- A short description or intro card reassures the user: "No signup, no downloads — just play and enjoy!"
-- Gameplay interface appears modern, polished, and inviting, with clear progression (e.g., animation, countdown, scoring).
+- Gameplay interface appears modern, polished, and inviting, with clear progression (e.g., animation, scoring).
 - Positive micro-interactions (sound effects, score feedback, gesture animations) enhance the sense of enjoyment.
 - No ads, distractions, or misleading links that could erode user trust.
 
@@ -146,7 +145,7 @@ The Rock-Paper-Scissors (RPS) game was designed to offer an engaging, responsive
 3. **Bold, Playful Aesthetics.**  A lively color scheme—complemented by high-contrast light and dark themes—ensures strong visual clarity and aligns with the energetic nature of the game. These theme options also improve accessibility and personalisation.
 4. **Intuitive Interaction and Feedback.**  Visual icons for hand gestures (rock, paper, scissors) are supported by hover states, click animations, and auditory feedback, creating a responsive environment that mimics real-world hand game interactions. 
 5. **Micro-Interactions and Transitions.**   Subtle motion effects and transition animations (such as card flips, gesture reveals, and score changes) are used to enhance the perceived quality of the interface, without overwhelming the user or detracting from core functionality.
-6. **No-Frills Navigation and Replayability.**  Users are provided with clear calls-to-action (e.g., “Start Game”, “Play Again”) and minimal navigation barriers. Game sessions can be restarted instantly, promoting repeat engagement with a single click.
+6. **No-Frills Navigation and Replayability.**  Users are provided with clear calls-to-action (e.g., “ Game On ”, “Reset Game”) and minimal navigation barriers. Game sessions can be restarted instantly, promoting repeat engagement with a single click.
 7. **Clean, Minimalist UI.**   All visual elements are positioned to reduce clutter and emphasize gameplay. Icons, scores, instructions, and controls are arranged using a grid layout for balanced spatial alignment and simplicity.
 8. **Performance Optimisation.**  Images, animations, and JavaScript modules are optimised for quick loading and smooth transitions. Caching strategies and minimal asset bloat were prioritised to maintain seamless performance, even on slower networks.
 9.  **Trustworthy, Distraction-Free Environment.**  The site avoids intrusive elements such as advertisements or unnecessary popups. Users are clearly informed upfront that no personal data, login, or downloads are required, which fosters a sense of trust and openness.
@@ -248,10 +247,9 @@ Upon initiating the game, the landing card flips to reveal Flip Card 2, the core
 
 - Animated hand gesture icons for Rock 🪨, Paper 📄, and Scissors ✂️, allowing players to make a selection
 - A real-time scoreboard that tracks player and computer scores across rounds
-- AI opponent logic, with adjustable difficulty (if implemented)
-- Game history log, displaying previous choices and outcomes for transparency and strategy tracking
+- AI opponent logic, with adjustable difficulty (if implemented).
 - Responsive layout using Bootstrap for smooth performance across devices
-Optional sound effects and celebration animations (e.g., confetti or audio) when a player wins a match.
+- Optional sound effects and celebration animations (e.g., confetti or audio) when a player wins a match.
 
 All interactions remain within this single view, preserving the single-page application architecture. This card is where the game logic, UI transitions, and feedback mechanisms converge to deliver an engaging user experience.
 
