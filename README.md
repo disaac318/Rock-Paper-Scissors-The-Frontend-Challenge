@@ -201,13 +201,13 @@ Psychology: Yellow evokes energy, attention, and alertness, ideal for highlighti
 ### Wireframes
 
 <details><summary>Desktop</summary>
-<img src="/assets/docs/wireframes/wireFrame RPS desktop.svg">
+<img src="./assets/docs/wireframes/wireFrame RPS desktop.svg">
 </details>
 <details><summary>Tablet</summary>
-<img src="/assets/docs/wireframes/wireFrame RPS tablet.svg">
+<img src="./assets/docs/wireframes/wireFrame RPS tablet.svg">
 </details>
 <details><summary>Phone</summary>
-<img src="/assets/docs/wireframes/wireFrame RPS phone.svg">
+<img src="./assets/docs/wireframes/wireFrame RPS phone.svg">
 </details>
 
 
