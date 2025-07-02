@@ -39,6 +39,7 @@ Milestone Project 2: Rock Paper Scissors Game An interactive Rock Paper Scissors
     - [HTML Validation](#html-validation)
     - [CSS Validation](#css-validation)
     - [Performance](#performance)
+    - [JS Lint](#js-lint)
     - [Performing tests on various devices](#performing-tests-on-various-devices)
     - [Browser compatibility](#browser-compatibility)
   - [Deployment](#deployment)
@@ -278,6 +279,8 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 <details><summary>Flip Card 1</summary>
 <img src="./assets/docs/validation/LH-Validation.png">
 </details>
+
+### JS Lint 
 
 
 
