@@ -234,18 +234,16 @@ The website is structured to provide easy access to essential information and fe
 
 ### Wireframes
 
-<details><summary>Home</summary>
-<img src="docs/wireframes/home-page.png">
+<details><summary>Desktop</summary>
+<img src="/assets/docs/wireframes/wireFrame RPS desktop.svg">
 </details>
-<details><summary>Our Services</summary>
-<img src="docs/wireframes/our-services-01.png">
+<details><summary>Tablet</summary>
+<img src="/assets/docs/wireframes/wireFrame RPS tablet.svg">
 </details>
-<details><summary>About Us</summary>
-<img src="docs/wireframes/about-us.png">
+<details><summary>Phone</summary>
+<img src="/assets/docs/wireframes/wireFrame RPS phone.svg">
 </details>
-<details><summary>Contact Us</summary>
-<img src="docs/wireframes/contact-us-01.png">
-</details>
+
 
 ## Technologies Used
 
