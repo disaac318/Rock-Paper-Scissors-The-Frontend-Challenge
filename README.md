@@ -276,11 +276,9 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
 
 <details><summary>Flip Card 1</summary>
-<img src="docs/LH-Validation/home-LH-validation.png">
+<img src="./assets/docs/validation/LH-Validation.png">
 </details>
-<details><summary>Flip Card 2</summary>
-<img src="docs/LH-Validation/Services-LH-validation.png">
-</details>
+
 
 
 
