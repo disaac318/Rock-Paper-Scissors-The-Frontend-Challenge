@@ -305,7 +305,7 @@ The website was deployed using GitHub Pages by following these steps:
 1. In the GitHub repository navigate to the Settings tab
 2. On the left hand menu select Pages
 3. For the source select Branch: master
-4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is live at https://disaac318.github.io/Rock-Paper-Scissors-The-Frontend-Challenge/"
+4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: " Your site is live at https://disaac318.github.io/Rock-Paper-Scissors-The-Frontend-Challenge/ "
 
 
 ## Credits
