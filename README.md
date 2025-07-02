@@ -38,7 +38,7 @@ Milestone Project 2: Rock Paper Scissors Game An interactive Rock Paper Scissors
     - [Languages](#languages)
     - [Frameworks \& Tools](#frameworks--tools)
   - [Features](#features)
-    - [Navigation Bar](#navigation-bar)
+    - [Landing Card (Welcome Interface)](#landing-card-welcome-interface)
     - [The Hero Page](#the-hero-page)
     - [Carousel](#carousel)
     - [Newsletter](#newsletter)
@@ -250,27 +250,33 @@ The website is structured to provide easy access to essential information and fe
 ### Languages
 - HTML
 - CSS
+- Javascript
 - Bootstrap 5.0
 
 ### Frameworks & Tools
 - Bootstrap v5.0
 - Git
 - GitHub
-- Photoshop
 - Illustrator
 - Google Fonts
 - Canva Color
-- Font Awsome
-- Flaticon
 
 ## Features
-The page consists of four pages
+A single-page layout is used, with a flip effect that transitions into the main game environment.
 
-### Navigation Bar
+### Landing Card (Welcome Interface)
+- The application opens with a visually engaging landing card, designed to welcome the player and introduce the Rock-Paper-Scissors game. This card serves as the entry point to the gameplay experience and includes:
+
+A brief title and subtitle to establish the game’s theme
+A “Start Game” button that triggers a smooth flip animation, transitioning the interface into the main game screen
+Responsive and styled using Bootstrap, with support for light/dark theme toggling (if enabled)
+Purposefully minimalist to maintain focus and provide a clean first impression
+The transition from this card to the game interface is seamless, enhancing user engagement through an animated card-flip effect that simulates a dynamic and interactive experience—all while keeping the app as a single-page application (SPA).
+
+
+
 - Featured on all four pages
-- The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes
-links to the Home, Our Services, About Us, and Contact Us pages.
-- It allows users to easily navigate the page
+
 
 ![Logo and navbar](docs/features/navigation-bar.png)
 
