@@ -55,8 +55,19 @@ body {
    padding-bottom: 32px;
 }
 
+/* Front face is visible by default */
+.card-front {
+   z-index: 2;
+   transition: opacity 0.4s ease-in-out;
+}
 
+/* Hide front when flipped */
+.flip-card-inner.flipped .card-front {
+  opacity: 0;
+  pointer-events: none;
+}
 
+/* Back face is rotated */
 .card-back {
    transform: rotateY(180deg);
    /* Hidden back face */
