@@ -265,12 +265,12 @@ The website is structured to provide easy access to essential information and fe
 A single-page layout is used, with a flip effect that transitions into the main game environment.
 
 ### Landing Card (Welcome Interface)
-- The application opens with a visually engaging landing card, designed to welcome the player and introduce the Rock-Paper-Scissors game. This card serves as the entry point to the gameplay experience and includes:
+  The application opens with a visually engaging landing card, designed to welcome the player and introduce the Rock-Paper-Scissors game. This card serves as the entry point to the gameplay experience and includes:
 
-A brief title and subtitle to establish the game’s theme
-A “Start Game” button that triggers a smooth flip animation, transitioning the interface into the main game screen
-Responsive and styled using Bootstrap, with support for light/dark theme toggling (if enabled)
-Purposefully minimalist to maintain focus and provide a clean first impression
+- A brief title and subtitle to establish the game’s theme.
+- A “Start Game” button that triggers a smooth flip animation, transitioning the interface into the main game screen.
+- Responsive and styled using Bootstrap and CSS.
+- Purposefully minimalist to maintain focus and provide a clean first impression.
 The transition from this card to the game interface is seamless, enhancing user engagement through an animated card-flip effect that simulates a dynamic and interactive experience—all while keeping the app as a single-page application (SPA).
 
 
