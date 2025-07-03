@@ -47,6 +47,7 @@ Milestone Project 2: Rock Paper Scissors Game An interactive Rock Paper Scissors
   - [Credits](#credits)
     - [Media](#media)
     - [Images](#images)
+    - [Flaticon](#flaticon)
   - [Development Challenges and Resolutions](#development-challenges-and-resolutions)
     - [Problem 1: Favicon Icon Not Found](#problem-1-favicon-icon-not-found)
     - [Problem 2: Broken Player Hand Image Link (Whitespace Issue)](#problem-2-broken-player-hand-image-link-whitespace-issue)
@@ -343,6 +344,9 @@ All sound effects used in this project were sourced from <a href="https://pixaba
 ### Images
 
 The visual assets and game illustrations were designed and created by me using Adobe Illustrator. This allowed for a fully customised interface and ensured a cohesive aesthetic that aligns with the interactive and playful nature of the game.
+
+### Flaticon
+The favicon used in this project was sourced from <a href="https://www.flaticon.com">Flaticon</a>, a reputable resource for high-quality vector icons. I then converted the image to .ico format using an online converter to ensure compatibility across browsers, and placed it in the root directory as favicon.ico.
 
 ## Development Challenges and Resolutions
 ### Problem 1: Favicon Icon Not Found
