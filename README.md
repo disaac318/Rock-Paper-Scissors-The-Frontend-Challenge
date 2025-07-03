@@ -166,7 +166,7 @@ The Rock-Paper-Scissors (RPS) game was designed to offer an engaging, responsive
 ![The Colour Palette](./assets/images/Colour-Palette.svg)
 The overall color palette creates an inviting and user-friendly interface designed to enhance usability, emotional engagement, and thematic consistency.
 
-**Vibrant Magenta/Purple (#996699 to #b30086 range)**
+**Vibrant Magenta/Purple (#99069c to #b990099 range)**
 - Used in: Main headings, buttons (Rock, Paper, Scissors), and titles like “CHOOSE YOUR WEAPON”.
 - Psychology: Purple and magenta tones often evoke creativity, excitement, and boldness, which are ideal for a casual yet competitive game. It stands out against lighter backgrounds and draws user focus to the game’s core interactive elements.
 - UX Benefit: High contrast against the light background makes buttons and key text highly visible and accessible.
@@ -177,13 +177,13 @@ The overall color palette creates an inviting and user-friendly interface design
 Psychology: Light pastel tones provide a calming and non-intimidating atmosphere, which is essential for encouraging casual play and accessibility, especially for younger users or first-time players.
 - UX Benefit: This soft hue reduces eye strain while allowing stronger foreground colors (like purple or yellow) to pop effectively.
 
-**Green (#006400 to #228B22)**
+**Dark Green (#006600)**
 
 - Used in: Labels such as Player, Computer, and the Reset Game link.
 - Psychology: Green signifies fair play, progress, and positive action. It reinforces a sense of balance between the player and the computer and subtly invites users to reset and try again.
 - UX Benefit: Green is associated with success and restart in digital interfaces, making it intuitive for the user.
 
-**Golden Yellow (#FFD700)**
+**Golden Yellow (#FFC107)**
 
 - Used in: The score count for both Player and Computer.
 Psychology: Yellow evokes energy, attention, and alertness, ideal for highlighting dynamic elements like scores.
