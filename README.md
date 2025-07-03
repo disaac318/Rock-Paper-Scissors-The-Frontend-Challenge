@@ -51,6 +51,8 @@ Milestone Project 2: Rock Paper Scissors Game An interactive Rock Paper Scissors
     - [Problem 1: Favicon Icon Not Found](#problem-1-favicon-icon-not-found)
     - [Problem 2: Broken Player Hand Image Link (Whitespace Issue)](#problem-2-broken-player-hand-image-link-whitespace-issue)
     - [Problem 3: Broken Player Hand Image Link (Whitespace Issue)](#problem-3-broken-player-hand-image-link-whitespace-issue)
+  - [Lessons Learned](#lessons-learned)
+    - [This development journey was an invaluable learning experience that reinforced several best practices:](#this-development-journey-was-an-invaluable-learning-experience-that-reinforced-several-best-practices)
   - [Acknowledgements](#acknowledgements)
 
 ## Project Goals 
@@ -397,6 +399,26 @@ Adjusted CSS to properly manage the visibility and layering of card faces during
 <details><summary>CSS Correction</summary>
 <img src="./assets/images/css-correction.png">
 </details>
+
+
+## Lessons Learned
+
+### This development journey was an invaluable learning experience that reinforced several best practices:
+
+- **Meticulous Asset Management:**
+Ensuring all static resources like favicons are correctly linked and available prevents avoidable runtime errors and improves the professionalism of the application. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/link#attr-rel">MDN Web Docs - favicon</a>
+- **Data Sanitization and Defensive Coding:**
+Sanitizing dynamic inputs before use—such as trimming whitespace—is essential to avoid subtle bugs, especially when those inputs determine critical file paths or UI behavior. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim">JavaScript String.prototype.trim() - MDN</a>
+- **Mastering CSS for UI State Control:**
+A deep understanding of CSS properties such as z-index, opacity, and pointer-events is crucial to managing UI element visibility and interactivity, particularly in animations and transitions. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/z-index">CSS z-index - MDN</a>
+- **Cross-Environment Testing:**
+Issues can arise uniquely in different deployment environments. Testing on platforms like GitHub Pages helped identify and fix problems that did not surface in local development. <a href="https://docs.github.com/en/pages">GitHub Pages Documentation</a>
+- **Systematic Debugging Process:**
+Approaching errors methodically—isolating causes, applying targeted fixes, and iterating—improves not only the final product but also one’s troubleshooting skills and code maintainability.
+- **Enhancing User Experience Through Visual Polish:**
+Correct rendering and smooth transitions are vital for user engagement and convey a sense of quality and attention to detail in the application.
+
+Together, these insights have strengthened my practical skills in frontend development and equipped me to anticipate and resolve similar challenges efficiently in future projects.
 
 
   
