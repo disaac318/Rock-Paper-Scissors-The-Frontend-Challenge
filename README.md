@@ -27,7 +27,7 @@ Milestone Project 2: Rock Paper Scissors Game An interactive Rock Paper Scissors
       - [As a first-time user exploring the website, I want to understand what to expect during my stay and seek information and confirmation that my investment will result in a satisfactory and enjoyable experience.](#as-a-first-time-user-exploring-the-website-i-want-to-understand-what-to-expect-during-my-stay-and-seek-information-and-confirmation-that-my-investment-will-result-in-a-satisfactory-and-enjoyable-experience)
   - [Design](#design)
     - [Design Choices](#design-choices)
-    - [Colour](#colour)
+    - [Colour Palette](#colour-palette)
     - [Fonts](#fonts)
     - [Wireframes](#wireframes)
   - [Technologies Used](#technologies-used)
@@ -167,7 +167,7 @@ The Rock-Paper-Scissors (RPS) game was designed to offer an engaging, responsive
 8. **Performance Optimisation.** Images, animations, and JavaScript modules are optimised for quick loading and smooth transitions. Caching strategies and minimal asset bloat were prioritised to maintain seamless performance, even on slower networks.
 9. **Trustworthy, Distraction-Free Environment.** The site avoids intrusive elements such as advertisements or unnecessary popups. Users are clearly informed upfront that no personal data, login, or downloads are required, which fosters a sense of trust and openness.
 
-### Colour
+### Colour Palette
 
 ![The Colour Palette](./assets/images/Colour-Palette.svg)
 The overall color palette creates an inviting and user-friendly interface designed to enhance usability, emotional engagement, and thematic consistency.
