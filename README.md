@@ -294,13 +294,16 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 <img src="./assets/docs/validation/before-JSLint.png">
 </details>
 
-To ensure the JavaScript code adheres to best practices and is free of common errors, I installed the JSLint extension for Visual Studio Code. This tool automatically analyzes the script and displays any warnings or errors in the editor’s right panel. I systematically reviewed each reported issue and applied the necessary fixes to improve code quality. This iterative process was repeated until the code passed JSLint validation without any errors or warnings, ensuring a clean and maintainable codebase.
+To ensure the JavaScript code adheres to best practices and is free of common errors, I installed the JSLint extension for Visual Studio Code. This tool automatically analyzes the script and displays any warnings or errors in the editor’s right panel. I systematically reviewed each reported issue and applied the necessary fixes to improve code quality. 
+
+JSLint reported 18 warnings and errors that required correction. I carefully reviewed each issue and made the necessary code adjustments to ensure compliance with JavaScript best practices and improve overall code quality.
+This iterative process was repeated until the code passed JSLint validation without any errors or warnings, ensuring a clean and maintainable codebase.
 
 
 
 
 <details><summary>Script.js after passing JSLint</summary>
-<img src="./assets/docs/validation/After-JSLint.png">
+<img src="./assets/docs/validation/after-JSLint.png">
 </details>
 
 
