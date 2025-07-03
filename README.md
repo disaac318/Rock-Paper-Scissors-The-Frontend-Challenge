@@ -47,6 +47,8 @@ Milestone Project 2: Rock Paper Scissors Game An interactive Rock Paper Scissors
   - [Credits](#credits)
     - [Media](#media)
     - [Images](#images)
+  - [Development Challenges and Resolutions](#development-challenges-and-resolutions)
+    - [Problem 1: Favicon Icon Not Found](#problem-1-favicon-icon-not-found)
   - [Acknowledgements](#acknowledgements)
 
 ## Project Goals 
@@ -341,6 +343,25 @@ All sound effects used in this project were sourced from <a href="https://pixaba
 ### Images
 
 The visual assets and game illustrations were designed and created by me using Adobe Illustrator. This allowed for a fully customised interface and ensured a cohesive aesthetic that aligns with the interactive and playful nature of the game.
+
+## Development Challenges and Resolutions
+### Problem 1: Favicon Icon Not Found
+
+<details><summary>Image reference for bugs | program errors</summary>
+<img src="./assets/images/Screenshot 2025-06-26 at 05.39.28.png">
+</details>
+
+**Issue:**  
+The browser attempted to load the favicon (`favicon.ico`) from the default location, but the file was missing. When running the site locally (e.g., via Live Server or localhost), the browser requests:  
+`http://127.0.0.1:5502/favicon.ico`  
+If the favicon file is absent in the project root, this results in a `404 (Not Found)` error.
+
+**How I fixed it:**  
+1. Added a `favicon.ico` file to the root directory of the project.  
+2. Linked the favicon explicitly in the HTML `<head>` section:  
+```html
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
 
   
 
