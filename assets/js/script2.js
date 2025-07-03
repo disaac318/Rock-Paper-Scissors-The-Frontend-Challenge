@@ -1,4 +1,6 @@
 // Rock-Paper-Scissors Game Script
+// Author: Dean Isaac
+
 
 "use strict";
 

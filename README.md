@@ -35,6 +35,7 @@ Milestone Project 2: Rock Paper Scissors Game An interactive Rock Paper Scissors
   - [Features](#features)
     - [🃏 Landing Card (Welcome Interface)](#-landing-card-welcome-interface)
     - [🎮 Flip Card 2 (Main Game Interface)](#-flip-card-2-main-game-interface)
+    - [🔬 Suggestions for Future Enhancements](#-suggestions-for-future-enhancements)
   - [Validation](#validation)
     - [HTML Validation](#html-validation)
     - [CSS Validation](#css-validation)
@@ -55,7 +56,6 @@ Milestone Project 2: Rock Paper Scissors Game An interactive Rock Paper Scissors
 - Challenge a computer opponent in a familiar game that requires quick thinking and strategy.
 - Enjoy a playful and visually engaging experience without needing to learn complex rules.
 - Compete against an AI with increasing difficulty to improve decision-making and prediction skills.
-- Track your progress with scores and round history, building a sense of achievement over time.
 - Enjoy the satisfaction of immediate visual and sound feedback with each win or round result.
 - Use the game as a light form of competition with friends or to simply pass time enjoyably.
 - Access a game that’s easy to play on any device — whether at home, during study breaks, or on the go.
@@ -87,14 +87,14 @@ The Rock-Paper-Scissors game is designed to provide an engaging and intuitive ex
 
 ### 📋 User Requirements and Expectations
 
-- Easy and intuitive gameplay: Users expect a straightforward interface where they can quickly understand how to play without prior instructions.
-- Responsive design: The game must work seamlessly across a range of devices, including smartphones, tablets, and desktops, adapting layout and controls accordingly.
-- Clear feedback: Users require immediate visual and auditory feedback after each move, including round outcomes, score updates, and celebratory effects when winning.
-- Smooth transitions: Animations such as card flips and gesture feedback should be fluid and not disrupt the flow of the game.
-- Replayability: Users expect to easily reset or start new games.
-- Accessibility: Controls and visuals must be clear, legible, and usable by players with varying abilities, including appropriate contrast and button sizes.
-- Performance: The game should load quickly and run smoothly without bugs or lag, ensuring a frustration-free experience.
-- Privacy and security: Users expect that the game runs entirely client-side, without collecting personal data or requiring internet connectivity.
+- **Easy and intuitive gameplay:** Users expect a straightforward interface where they can quickly understand how to play without prior instructions.
+- **Responsive design:** The game must work seamlessly across a range of devices, including smartphones, tablets, and desktops, adapting layout and controls accordingly.
+- **Clear feedback:** Users require immediate visual and auditory feedback after each move, including round outcomes, score updates, and celebratory effects when winning.
+- **Smooth transitions:** Animations such as card flips and gesture feedback should be fluid and not disrupt the flow of the game.
+- **Replayability:** Users expect to easily reset or start new games.
+- **Accessibility:** Controls and visuals must be clear, legible, and usable by players with varying abilities, including appropriate contrast and button sizes.
+- **Performance:** The game should load quickly and run smoothly without bugs or lag, ensuring a frustration-free experience.
+- **Privacy and security:** Users expect that the game runs entirely client-side, without collecting personal data or requiring internet connectivity.
   
 
 ### User Stories
@@ -254,6 +254,13 @@ Upon initiating the game, the landing card flips to reveal Flip Card 2, the core
 - Optional sound effects and celebration animations (e.g., confetti or audio) when a player wins a match.
 
 All interactions remain within this single view, preserving the single-page application architecture. This card is where the game logic, UI transitions, and feedback mechanisms converge to deliver an engaging user experience.
+
+
+### 🔬 Suggestions for Future Enhancements
+- **Difficulty Mode:** Use weighted randomness for computer choices.
+- **Match History Log:** Store rounds and render to UI.
+- **Theming:** Toggle dark/light styles.
+- **Accessibility Improvements:** Add ARIA labels, focus states, and keyboard navigation.
 
 
 
