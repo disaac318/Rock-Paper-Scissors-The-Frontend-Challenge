@@ -54,8 +54,8 @@ Milestone Project 2: Rock Paper Scissors Game An interactive Rock Paper Scissors
     - [Problem 1: Favicon Icon Not Found](#problem-1-favicon-icon-not-found)
     - [Problem 2: Broken Player Hand Image Link (Whitespace Issue)](#problem-2-broken-player-hand-image-link-whitespace-issue)
     - [Problem 3: The car-front image is overlapping the game interface, causing visual obstruction during gameplay](#problem-3-the-car-front-image-is-overlapping-the-game-interface-causing-visual-obstruction-during-gameplay)
-  - [Lessons Learned](#lessons-learned)
-    - [This development journey was an invaluable learning experience that reinforced several best practices:](#this-development-journey-was-an-invaluable-learning-experience-that-reinforced-several-best-practices)
+  - [What I Learned Along the Way](#what-i-learned-along-the-way)
+    - [Working through this project was more than just completing a task—it was a meaningful personal learning journey that deepened my understanding of development best practices and significantly contributed to my growth as a developer. Throughout this process, I gained valuable insights, including:](#working-through-this-project-was-more-than-just-completing-a-taskit-was-a-meaningful-personal-learning-journey-that-deepened-my-understanding-of-development-best-practices-and-significantly-contributed-to-my-growth-as-a-developer-throughout-this-process-i-gained-valuable-insights-including)
   - [Acknowledgements](#acknowledgements)
 
 ## Project Goals 
@@ -466,9 +466,9 @@ Adjusted CSS to properly manage the visibility and layering of card faces during
 </details>
 
 
-## Lessons Learned
+## What I Learned Along the Way
 
-### This development journey was an invaluable learning experience that reinforced several best practices:
+### Working through this project was more than just completing a task—it was a meaningful personal learning journey that deepened my understanding of development best practices and significantly contributed to my growth as a developer. Throughout this process, I gained valuable insights, including:
 
 - **Meticulous Asset Management:**
 Ensuring all static resources like favicons are correctly linked and available prevents avoidable runtime errors and improves the professionalism of the application. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/link#attr-rel">MDN Web Docs - favicon</a>
