@@ -351,7 +351,7 @@ The favicon used in this project was sourced from <a href="https://www.flaticon.
 ## Development Challenges and Resolutions
 ### Problem 1: Favicon Icon Not Found
 
-<details><summary>Favicon Icon Not Found</summary>
+<details><summary><strong>Favicon Icon Not Found</strong></summary>
 <img src="./assets/images/Screenshot 2025-06-26 at 05.39.28.png">
 </details>
 
@@ -367,7 +367,7 @@ If the favicon file is absent in the project root, this results in a `404 (Not F
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
 ### Problem 2: Broken Player Hand Image Link (Whitespace Issue)
-<details><summary>Broken image link</summary>
+<details><summary><strong>Broken image link</strong></summary>
 <img src="./assets/images/Screenshot 2025-06-26 at 05.36.40.png">
 </details>
 
@@ -389,7 +389,7 @@ This ensured the file path was correctly formed, for example:
 ./assets/images/rock.svg
 
 ### Problem 3: Broken Player Hand Image Link (Whitespace Issue)
-<details><summary>Front Card Overlapping Back Card</summary>
+<details><summary><strong>Front Card Image Overlapping Back Card</strong></summary>
 <img src="./assets/images/image-overlap.png">
 </details>
 
@@ -400,7 +400,7 @@ When deployed on GitHub Pages, the front card remained visible and overlapped th
 
 Adjusted CSS to properly manage the visibility and layering of card faces during state transitions:
 
-<details><summary>CSS Correction</summary>
+<details><summary><strong>CSS Correction</strong></summary>
 <img src="./assets/images/css-correction.png">
 </details>
 
