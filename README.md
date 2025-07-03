@@ -53,7 +53,7 @@ Milestone Project 2: Rock Paper Scissors Game An interactive Rock Paper Scissors
   - [Development Challenges and Resolutions](#development-challenges-and-resolutions)
     - [Problem 1: Favicon Icon Not Found](#problem-1-favicon-icon-not-found)
     - [Problem 2: Broken Player Hand Image Link (Whitespace Issue)](#problem-2-broken-player-hand-image-link-whitespace-issue)
-    - [Problem 3: Broken Player Hand Image Link (Whitespace Issue)](#problem-3-broken-player-hand-image-link-whitespace-issue)
+    - [Problem 3: The car-front image is overlapping the game interface, causing visual obstruction during gameplay](#problem-3-the-car-front-image-is-overlapping-the-game-interface-causing-visual-obstruction-during-gameplay)
   - [Lessons Learned](#lessons-learned)
     - [This development journey was an invaluable learning experience that reinforced several best practices:](#this-development-journey-was-an-invaluable-learning-experience-that-reinforced-several-best-practices)
   - [Acknowledgements](#acknowledgements)
@@ -445,8 +445,8 @@ const playerChoice = button.textContent.trim().toLowerCase();
 This ensured the file path was correctly formed, for example:
 ./assets/images/rock.svg
 
-### Problem 3: Broken Player Hand Image Link (Whitespace Issue)
-<details><summary><strong>Front Card Image Overlapping Back Card</strong></summary>
+### Problem 3: The car-front image is overlapping the game interface, causing visual obstruction during gameplay
+<details><summary><strong>Front Card Image Overlapping Game Interface</strong></summary>
 <img src="./assets/images/image-overlap.png">
 </details>
 
