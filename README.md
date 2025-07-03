@@ -322,13 +322,13 @@ This iterative process was repeated until the code passed JSLint validation with
   
 
 2. **Intro Transition**
-- Clicking the Flip Button:
+- Clicking the Flip Button: (Game On)
 - Adds **.flipped class** to reveal the match screen.
 - Plays a “woosh” transition sound.
 
 
 3. **Game Initialization**- 
-Function game() encapsulates all logic and is executed immediately.
+**Function game()** encapsulates all logic and is executed immediately.
  - Initializes:
 - Scores
 - Audio elements
@@ -364,7 +364,7 @@ Function game() encapsulates all logic and is executed immediately.
 - Allows replay
 
 
-The game logic exemplifies a well-structured, modular, event-driven, and state-based design approach. Key functionalities are encapsulated within modular functions such as **updateScoreboard, decideWinner, celebrate**, and **resetGame**, which enhances code maintainability, readability, and ease of testing. The use of animations and audio feedback significantly improves user engagement, making the gameplay experience more interactive and visually appealing. Additionally, the implementation of a game state variable **(isGameOver)** ensures input is effectively disabled once a match concludes, preventing unintended actions and maintaining logical integrity throughout the game flow.
+The RPS game logic exemplifies a well-structured, modular, event-driven, and state-based design approach. Key functionalities are encapsulated within modular functions such as **updateScoreboard, decideWinner, celebrate**, and **resetGame**, which enhances code maintainability, readability, and ease of testing. The use of animations and audio feedback significantly improves user engagement, making the gameplay experience more interactive and visually appealing. Additionally, the implementation of a game state variable **(isGameOver)** ensures input is effectively disabled once a match concludes, preventing unintended actions and maintaining logical integrity throughout the game flow.
 
 
 
