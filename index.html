@@ -1,32 +1,36 @@
 <!-- HTML document starts -->
 <!DOCTYPE html>
 <html lang="en">
+
    <head>
       <!-- Meta settings for proper encoding and responsive layout -->
       <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="viewport"
+         content="width=device-width, initial-scale=1.0" />
       <title>Rock Paper Scissors | The Game</title>
 
-      <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+      <link rel="icon"
+         href="/favicon.ico"
+         type="image/x-icon" />
 
       <!-- Google Fonts setup -->
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-         href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
-         rel="stylesheet"
-      />
+      <link rel="preconnect"
+         href="https://fonts.googleapis.com" />
+      <link rel="preconnect"
+         href="https://fonts.gstatic.com"
+         crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+         rel="stylesheet" />
 
       <!-- Bootstrap CSS CDN -->
-      <link
-         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
          rel="stylesheet"
          integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
-         crossorigin="anonymous"
-      />
+         crossorigin="anonymous" />
 
       <!-- Custom CSS file -->
-      <link rel="stylesheet" href="./assets/css/style.css" />
+      <link rel="stylesheet"
+         href="./assets/css/style.css" />
    </head>
 
    <body>
@@ -37,26 +41,19 @@
          </div>
 
          <!-- Game flip card container -->
-         <div id="flipCard" class="flip-card-inner card-flip">
+         <div id="flipCard"
+            class="flip-card-inner card-flip">
             <!-- Card Front Face -->
-            <div
-               class="card-face card-front d-flex flex-column justify-content-center align-items-center"
-            >
+            <div class="card-face card-front d-flex flex-column justify-content-center align-items-center">
                <!-- Top rotating RPS images -->
-               <div
-                  class="intro d-flex justify-content-center align-items-center"
-               >
-                  <img
-                     class="rotating-image image-top mb-3"
+               <div class="intro d-flex justify-content-center align-items-center">
+                  <img class="rotating-image image-top mb-3"
                      id="rps-img"
                      src="./assets/images/rps.svg"
-                     alt="Rock Paper Scissors hand poster Base Image"
-                  />
-                  <img
-                     class="rotating-image image-bottom"
+                     alt="Rock Paper Scissors hand poster Base Image" />
+                  <img class="rotating-image image-bottom"
                      src="./assets/images/rps-opaque.png"
-                     alt="Image Bottom"
-                  />
+                     alt="Image Bottom" />
                </div>
 
                <!-- Challenge tagline -->
@@ -78,10 +75,8 @@
 
                <!-- Call-to-action button -->
                <div>
-                  <button
-                     id="flipBtn"
-                     class="btn btn-success w-100 w-md-auto flipBtn text-uppercase fw-bold mb-4"
-                  >
+                  <button id="flipBtn"
+                     class="btn btn-success w-100 w-md-auto flipBtn text-uppercase fw-bold mb-4">
                      Game On!
                   </button>
                </div>
@@ -99,9 +94,7 @@
             <!-- End of Card Front -->
 
             <!-- Card Back Face -->
-            <div
-               class="card-face card-back d-flex flex-column justify-content-space-between align-items-center"
-            >
+            <div class="card-face card-back d-flex flex-column justify-content-space-between align-items-center">
                <!-- Game logic section -->
                <div class="match text-center">
                   <!-- Scoreboard -->
@@ -123,44 +116,36 @@
 
                   <!-- Visual hand gestures -->
                   <div class="hands d-flex">
-                     <img
-                        class="player-hand"
+                     <img class="player-hand"
                         src="./assets/images/rock.svg"
-                        alt="Player hand"
-                     />
-                     <img
-                        class="computer-hand"
+                        alt="Player hand" />
+                     <img class="computer-hand"
                         src="./assets/images/rock.svg"
-                        alt="Computer hand"
-                     />
+                        alt="Computer hand" />
                   </div>
 
                   <!-- Option buttons -->
                   <div class="options d-flex">
-                     <button
-                        class="btn btn-warning flex-fill text-capitalize"
-                        type="button"
-                     >
+                     <button class="btn btn-warning flex-fill text-capitalize"
+                        type="button">
                         rock
                      </button>
-                     <button
-                        class="btn btn-warning flex-fill text-capitalize"
-                        type="button"
-                     >
+                     <button class="btn btn-warning flex-fill text-capitalize"
+                        type="button">
                         paper
                      </button>
-                     <button
-                        class="btn btn-warning flex-fill text-capitalize"
-                        type="button"
-                     >
+                     <button class="btn btn-warning flex-fill text-capitalize"
+                        type="button">
                         scissors
                      </button>
                   </div>
 
                   <!-- Result display area -->
-                  <div class="result" id="result"></div>
+                  <div class="result"
+                     id="result"></div>
 
-                  <button class="reset-btn btn btn-warning" id="reset">
+                  <button class="reset-btn btn btn-warning"
+                     id="reset">
                      Reset Game
                   </button>
                </div>
@@ -180,24 +165,22 @@
       </div>
 
       <!-- Preloaded game sound effects -->
-      <audio
-         id="wooshSound"
+      <audio id="wooshSound"
          src="./assets/sounds/short-woosh-109592.mp3"
-         preload="auto"
-      ></audio>
-      <audio id="win-sound" src="./assets/sounds/level-win-6416.mp3"></audio>
-      <audio
-         id="lose-sound"
-         src="./assets/sounds/losing-horn-313723.mp3"
-      ></audio>
-      <audio id="draw-sound" src="./assets/sounds/new-level-142995.mp3"></audio>
-      <audio id="victory-sound" src="./assets/sounds/victory.mp3"></audio>
-      <audio id="defeat-sound" src="./assets/sounds/defeat.mp3"></audio>
-      <audio
-         id="shake-sound"
+         preload="auto"></audio>
+      <audio id="win-sound"
+         src="./assets/sounds/level-win-6416.mp3"></audio>
+      <audio id="lose-sound"
+         src="./assets/sounds/losing-horn-313723.mp3"></audio>
+      <audio id="draw-sound"
+         src="./assets/sounds/new-level-142995.mp3"></audio>
+      <audio id="victory-sound"
+         src="./assets/sounds/victory.mp3"></audio>
+      <audio id="defeat-sound"
+         src="./assets/sounds/defeat.mp3"></audio>
+      <audio id="shake-sound"
          src="./assets/sounds/shake.mp3"
-         preload="auto"
-      ></audio>
+         preload="auto"></audio>
 
       <!-- JavaScript logic and confetti library -->
       <script src="./assets/js/script.js"></script>
@@ -205,4 +188,5 @@
 
       <!-- checked for trailing slash -->
    </body>
+
 </html>

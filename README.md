@@ -305,7 +305,7 @@ This iterative process was repeated until the code passed JSLint validation with
 
 
 
-<img src="./assets/docs/validation/after-JSLint.png">
+<img src="./assets/docs/validation/JSLint-compliant.png">
 
 
 
