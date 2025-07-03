@@ -314,6 +314,7 @@ This iterative process was repeated until the code passed JSLint validation with
 # Game Logic Breakdown
 
 <img src="./assets/images/RPS-FlowChart.svg">
+
 ### The game logic was developed using Javascript.
 
 1. **Event-Driven Start**
