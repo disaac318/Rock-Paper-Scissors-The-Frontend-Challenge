@@ -417,7 +417,8 @@ The browser attempted to load the favicon (`favicon.ico`) from the default locat
 If the favicon file is absent in the project root, this results in a `404 (Not Found)` error.
 
 **How I fixed it:**  
-1. Added a<a href="./favicon.ico"> `favicon.ico`</a> file to the root directory of the project.  
+<img src="./favicon.ico">
+1. Added a `favicon.ico` file to the root directory of the project.  
 2. Linked the favicon explicitly in the HTML `<head>` section:  
 
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -458,6 +459,10 @@ Adjusted CSS to properly manage the visibility and layering of card faces during
 
 <details><summary><strong>CSS Correction</strong></summary>
 <img src="./assets/images/css-correction.png">
+</details>
+
+<details><summary><strong>Result Image</strong></summary>
+<img src="./assets/images/card-front-noShow.png">
 </details>
 
 
