@@ -49,6 +49,7 @@ Milestone Project 2: Rock Paper Scissors Game An interactive Rock Paper Scissors
     - [Images](#images)
   - [Development Challenges and Resolutions](#development-challenges-and-resolutions)
     - [Problem 1: Favicon Icon Not Found](#problem-1-favicon-icon-not-found)
+    - [Problem 2: Broken Player Hand Image Link (Whitespace Issue)](#problem-2-broken-player-hand-image-link-whitespace-issue)
   - [Acknowledgements](#acknowledgements)
 
 ## Project Goals 
@@ -301,10 +302,6 @@ To ensure the JavaScript code adheres to best practices and is free of common er
 JSLint reported 18 warnings and errors that required correction. I carefully reviewed each issue and made the necessary code adjustments to ensure compliance with JavaScript best practices and improve overall code quality.
 This iterative process was repeated until the code passed JSLint validation without any errors or warnings, ensuring a clean and maintainable codebase.
 
-
-
-
-
 <img src="./assets/docs/validation/JSLint-compliant.png">
 
 
@@ -347,7 +344,7 @@ The visual assets and game illustrations were designed and created by me using A
 ## Development Challenges and Resolutions
 ### Problem 1: Favicon Icon Not Found
 
-<details><summary>Image reference for bugs | program errors</summary>
+<details><summary>Favicon Icon Not Found</summary>
 <img src="./assets/images/Screenshot 2025-06-26 at 05.39.28.png">
 </details>
 
@@ -359,10 +356,30 @@ If the favicon file is absent in the project root, this results in a `404 (Not F
 **How I fixed it:**  
 1. Added a `favicon.ico` file to the root directory of the project.  
 2. Linked the favicon explicitly in the HTML `<head>` section:  
-```html
+
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
+### Problem 2: Broken Player Hand Image Link (Whitespace Issue)
+<details><summary>Broken image link</summary>
+<img src="./assets/images/Screenshot 2025-06-26 at 05.36.40.png">
+</details>
 
+**Issue:**
+The game failed to display the player hand image because the constructed image file path contained extraneous whitespace, leading to an invalid URL and a 404 (Not Found) error. For example:
+GET http://127.0.0.1:5502/assets/images/ rock .svg 404 (Not Found)
+
+This happened because the player’s choice was extracted from the button text without trimming whitespace:
+
+const playerChoice = button.textContent.toLowerCase();
+
+If the button’s label contained spaces (e.g., <button> Rock </button>), the resulting string was " rock " instead of "rock".
+
+**How I fixed it:**
+I used .trim() to sanitize the input and remove unwanted whitespace:
+
+const playerChoice = button.textContent.trim().toLowerCase();
+This ensured the file path was correctly formed, for example:
+./assets/images/rock.svg
   
 
 
