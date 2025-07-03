@@ -41,7 +41,9 @@ Milestone Project 2: Rock Paper Scissors Game An interactive Rock Paper Scissors
     - [CSS Validation](#css-validation)
     - [Performance](#performance)
     - [JS Lint](#js-lint)
-    - [Performing tests on various devices](#performing-tests-on-various-devices)
+- [Game Logic Breakdown](#game-logic-breakdown)
+    - [The game logic was developed using Javascript.](#the-game-logic-was-developed-using-javascript)
+- [Performing tests on various devices](#performing-tests-on-various-devices)
     - [Browser compatibility](#browser-compatibility)
   - [Deployment](#deployment)
   - [Credits](#credits)
@@ -309,10 +311,63 @@ This iterative process was repeated until the code passed JSLint validation with
 <img src="./assets/docs/validation/JSLint-compliant.png">
 
 
+# Game Logic Breakdown
+
+<img src="./assets/images/RPS-FlowChart.svg">
+### The game logic was developed using Javascript.
+
+1. **Event-Driven Start**
+- **DOMContentLoaded** ensures that the script runs only after the HTML is fully loaded.
+  
+
+2. **Intro Transition**
+- Clicking the Flip Button:
+- Adds **.flipped class** to reveal the match screen.
+- Plays a “woosh” transition sound.
+
+
+3. **Game Initialization**- 
+Function game() encapsulates all logic and is executed immediately.
+ - Initializes:
+- Scores
+- Audio elements
+- DOM references
+- Game state **(isGameOver)**
+
+4. **User Interaction Loop**
+- **Player clicks a weapon (rock/paper/scissors):**
+- The computer generates a random move.
+- Both hand images animate.
+- After 2 seconds, the hands update and **decideWinner()** is called.
+
+
+5. **Winner Decision Logic**
+- If same choice: draw
+- If player wins: increment player score
+- If computer wins: increment computer score
+- Update the visual scoreboard with animation
+
+
+6. **Game End Condition**
+- **If player or computer reaches 3 points:**
+- Game is marked over **(isGameOver = true)**
+- Shows victory/defeat message
+- Triggers celebration (confetti) or defeat rain (dark confetti)
+- Plays special sound
+
+
+7. **Game Reset**
+- The Reset button calls **resetGame():**
+- Resets all scores and visual states
+- Restores initial hand positions
+- Allows replay
+
+
+The game logic exemplifies a well-structured, modular, event-driven, and state-based design approach. Key functionalities are encapsulated within modular functions such as **updateScoreboard, decideWinner, celebrate**, and **resetGame**, which enhances code maintainability, readability, and ease of testing. The use of animations and audio feedback significantly improves user engagement, making the gameplay experience more interactive and visually appealing. Additionally, the implementation of a game state variable **(isGameOver)** ensures input is effectively disabled once a match concludes, preventing unintended actions and maintaining logical integrity throughout the game flow.
 
 
 
-### Performing tests on various devices 
+# Performing tests on various devices 
 The website was tested on the following devices:
 - Imac 24-inch M1 2021
 - Ipad Pro 11 2021
