@@ -163,9 +163,10 @@ The Rock-Paper-Scissors (RPS) game was designed to offer an engaging, responsive
 
 
 ### Colour
+![The Colour Palette](./assets/images/Colour-Palette.svg)
 The overall color palette creates an inviting and user-friendly interface designed to enhance usability, emotional engagement, and thematic consistency.
 
-**Vibrant Magenta/Purple (#990066 to #b30086 range)**
+**Vibrant Magenta/Purple (#996699 to #b30086 range)**
 - Used in: Main headings, buttons (Rock, Paper, Scissors), and titles like “CHOOSE YOUR WEAPON”.
 - Psychology: Purple and magenta tones often evoke creativity, excitement, and boldness, which are ideal for a casual yet competitive game. It stands out against lighter backgrounds and draws user focus to the game’s core interactive elements.
 - UX Benefit: High contrast against the light background makes buttons and key text highly visible and accessible.

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 505.21 283.98">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #060;
+      }
+
+      .cls-2 {
+        fill: #f26739;
+      }
+
+      .cls-3 {
+        fill: #f4e5f1;
+      }
+
+      .cls-4 {
+        fill: #fc0;
+      }
+
+      .cls-5 {
+        fill: #909;
+      }
+
+      .cls-6 {
+        fill: #c6069c;
+      }
+
+      .cls-7 {
+        fill: #310e31;
+      }
+
+      .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-8, .cls-9 {
+        font-size: 28px;
+      }
+
+      .cls-8, .cls-9, .cls-10 {
+        font-family: Impact, Impact;
+      }
+
+      .cls-9 {
+        fill: #231f20;
+      }
+
+      .cls-10 {
+        fill: #983895;
+        font-size: 51.34px;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-3" x="-60.03" y="60.03" width="171.52" height="51.46" transform="translate(-60.03 111.49) rotate(-90)"/>
+    <text class="cls-9" transform="translate(35.95 131) rotate(-90)"><tspan x="0" y="0">#F4E5F1</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-6" x="166.85" y="60.03" width="171.52" height="51.46" transform="translate(166.85 338.37) rotate(-90)"/>
+    <text class="cls-9" transform="translate(262.04 131) rotate(-90)"><tspan x="0" y="0">#</tspan><tspan x="17.54" y="0">99069C</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-4" x="15.6" y="60.03" width="171.52" height="51.46" transform="translate(15.6 187.12) rotate(-90)"/>
+    <text class="cls-9" transform="translate(113.39 131) rotate(-90)"><tspan x="0" y="0">#FFC107</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-2" x="91.22" y="60.03" width="171.52" height="51.46" transform="translate(91.22 262.74) rotate(-90)"/>
+    <text class="cls-9" transform="translate(190.83 131) rotate(-90)"><tspan x="0" y="0">#FF6633</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-5" x="242.47" y="60.03" width="171.52" height="51.46" transform="translate(242.47 413.99) rotate(-90)"/>
+    <text class="cls-9" transform="translate(340.87 131) rotate(-90)"><tspan x="0" y="0">#</tspan><tspan x="17.54" y="0">990099</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-7" x="318.1" y="60.03" width="171.52" height="51.46" transform="translate(318.1 489.62) rotate(-90)"/>
+    <text class="cls-8" transform="translate(415.16 131) rotate(-90)"><tspan x="0" y="0">#330033</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-1" x="393.72" y="60.03" width="171.52" height="51.46" transform="translate(393.72 565.24) rotate(-90)"/>
+    <text class="cls-8" transform="translate(490.78 131) rotate(-90)"><tspan x="0" y="0">#006600</tspan></text>
+  </g>
+  <text class="cls-10" transform="translate(60.82 267.01)"><tspan x="0" y="0">The Colour Palette</tspan></text>
+</svg>
