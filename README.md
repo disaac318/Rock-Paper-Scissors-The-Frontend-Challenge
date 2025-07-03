@@ -50,6 +50,7 @@ Milestone Project 2: Rock Paper Scissors Game An interactive Rock Paper Scissors
   - [Development Challenges and Resolutions](#development-challenges-and-resolutions)
     - [Problem 1: Favicon Icon Not Found](#problem-1-favicon-icon-not-found)
     - [Problem 2: Broken Player Hand Image Link (Whitespace Issue)](#problem-2-broken-player-hand-image-link-whitespace-issue)
+    - [Problem 3: Broken Player Hand Image Link (Whitespace Issue)](#problem-3-broken-player-hand-image-link-whitespace-issue)
   - [Acknowledgements](#acknowledgements)
 
 ## Project Goals 
@@ -380,6 +381,24 @@ I used .trim() to sanitize the input and remove unwanted whitespace:
 const playerChoice = button.textContent.trim().toLowerCase();
 This ensured the file path was correctly formed, for example:
 ./assets/images/rock.svg
+
+### Problem 3: Broken Player Hand Image Link (Whitespace Issue)
+<details><summary>Front Card Overlapping Back Card</summary>
+<img src="./assets/images/image-overlap.png">
+</details>
+
+**Issue:**
+When deployed on GitHub Pages, the front card remained visible and overlapped the back card during the flip animation, causing a UI glitch.
+
+**How I fixed it:**
+
+Adjusted CSS to properly manage the visibility and layering of card faces during state transitions:
+
+<details><summary>CSS Correction</summary>
+<img src="./assets/images/css-correction.png">
+</details>
+
+
   
 
 
