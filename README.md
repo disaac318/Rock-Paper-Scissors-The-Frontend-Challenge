@@ -82,7 +82,6 @@
 -  Ensure the project reflects a high standard of accessibility, mobile responsiveness, and UI/UX design thinking.
 -  Provide a smooth and enjoyable gameplay experience that encourages replayability and user retention.
 -  Use this project as a portfolio piece to demonstrate technical capability, creativity, and a clear understanding of user-centered design.
--  Incorporate testing (e.g., Jest) to show commitment to software quality and maintainability.
 -  Create clear and well-documented code that is easy to understand, extend, and maintain for future development or enhancement.
 
 ## 🎨 User Experience
@@ -120,7 +119,6 @@ The Rock-Paper-Scissors game is designed to provide an engaging and intuitive ex
 5. I want the game to respond smoothly on my device (phone, tablet, or desktop), so I can play comfortably anywhere.
 6. I want the option to reset or start a new game easily, so I can play multiple rounds without confusion.
 7. I want simple sound and visual effects that enhance the experience without being distracting.
-8. I want to know that my data and privacy are protected, so I can play without concern.
 
 #### What I need to know as Returning Customer
 
@@ -136,7 +134,7 @@ The Rock-Paper-Scissors game is designed to provide an engaging and intuitive ex
 
 #### As a first-time user exploring the website, I want a clear and straightforward understanding of what the website offers, so I can decide quickly whether it matches my interest in fun, casual gameplay.
 
--      The landing page includes a concise headline (e.g., "Choose your weapon and beat the Machine.") that clearly explains the site's purpose.
+- The landing page includes a concise headline (e.g., "Choose your weapon and beat the Machine.") that clearly explains the site's purpose.
 -  A short subheading or paragraph summarises the game (e.g., "Challenge the AI in this animated, responsive version of the classic game. No login needed.").
 -  Prominent call-to-action (e.g., “Start Game” or “Flip to Play”) is visible without scrolling.
 -  Flipcard animation or welcome message provides context before transitioning to gameplay.
@@ -160,12 +158,12 @@ The Rock-Paper-Scissors (RPS) game was designed to offer an engaging, responsive
 
 2. **Mobile-First Responsive Design.** The interface is fully responsive across all screen sizes and devices. Whether accessed via desktop, tablet, or smartphone, the layout adapts proportionally to ensure that game buttons, scores, and animations remain accessible and visually balanced.
 3. **Bold, Playful Aesthetics.** A lively color scheme—complemented by high-contrast light and dark themes—ensures strong visual clarity and aligns with the energetic nature of the game. These theme options also improve accessibility and personalisation.
-4. **Intuitive Interaction and Feedback.** Visual icons for hand gestures (rock, paper, scissors) are supported by hover states, click animations, and auditory feedback, creating a responsive environment that mimics real-world hand game interactions.
+4. **Intuitive Interaction and Feedback.** Visual icons for hand gestures (rock, paper, scissors) are supported by click animations and auditory feedback, creating a responsive environment that mimics real-world hand game interactions.
 5. **Micro-Interactions and Transitions.** Subtle motion effects and transition animations (such as card flips, gesture reveals, and score changes) are used to enhance the perceived quality of the interface, without overwhelming the user or detracting from core functionality.
 6. **No-Frills Navigation and Replayability.** Users are provided with clear calls-to-action (e.g., “ Game On ”, “Reset Game”) and minimal navigation barriers. Game sessions can be restarted instantly, promoting repeat engagement with a single click.
 7. **Clean, Minimalist UI.** All visual elements are positioned to reduce clutter and emphasize gameplay. Icons, scores, instructions, and controls are arranged using a grid layout for balanced spatial alignment and simplicity.
 8. **Performance Optimisation.** Images, animations, and JavaScript modules are optimised for quick loading and smooth transitions. Caching strategies and minimal asset bloat were prioritised to maintain seamless performance, even on slower networks.
-9. **Trustworthy, Distraction-Free Environment.** The site avoids intrusive elements such as advertisements or unnecessary popups. Users are clearly informed upfront that no personal data, login, or downloads are required, which fosters a sense of trust and openness.
+9. **Distraction-Free Environment.** The site avoids intrusive elements such as advertisements or unnecessary popups.
 
 ### Colour Palette
 
@@ -184,7 +182,7 @@ The overall color palette creates an inviting and user-friendly interface design
    Psychology: Light pastel tones provide a calming and non-intimidating atmosphere, which is essential for encouraging casual play and accessibility, especially for younger users or first-time players.
 -  UX Benefit: This soft hue reduces eye strain while allowing stronger foreground colors (like purple or yellow) to pop effectively.
 
-**Dark Green (#006600)**
+**Dark Green (#006400)**
 
 -  Used in: Labels such as Player, Computer, and the Reset Game link.
 -  Psychology: Green signifies fair play, progress, and positive action. It reinforces a sense of balance between the player and the computer and subtly invites users to reset and try again.
@@ -196,7 +194,7 @@ The overall color palette creates an inviting and user-friendly interface design
    Psychology: Yellow evokes energy, attention, and alertness, ideal for highlighting dynamic elements like scores.
 -  UX Benefit: Easily catches the user's eye and signifies real-time change, keeping users informed about game status.
 
-**Black/Grey (#333333)**
+**Dark Tyrian Purple (#330033)**
 
 -  Used in: Footer text for legal and branding content.
 -  Reasoning: This subtle but readable contrast anchors the footer information without competing with the main content.
@@ -206,7 +204,7 @@ The overall color palette creates an inviting and user-friendly interface design
 **Acme (Headlines & Buttons) — Adds Playfulness**
 
 -  Game-like personality: Acme's rounded, bold letterforms convey a fun, casual, and energetic tone—perfect for a game targeting users of all ages, especially younger audiences or casual players.
--  Attention-grabbing: Ideal for use in titles like “Rock! Paper! Scissors!”, scoreboard headings, or call-to-action buttons like “Play Again.”
+-  Attention-grabbing: Ideal for use in titles like “Rock! Paper! Scissors!”and scoreboard headings. 
 -  Web-optimized: Loads fast from Google Fonts and maintains quality on all screen sizes.
 
 **Helvetica (Body, Instructions, UI) — Ensures Clarity**
@@ -318,6 +316,8 @@ JSLint reported 18 warnings and errors that required correction. I carefully rev
 This iterative process was repeated until the code passed JSLint validation without any errors or warnings, ensuring a clean and maintainable codebase.
 
 <img src="./assets/docs/validation/JSLint-compliant.png">
+
+Here, although JSLint flagged the semicolon as an error, it is syntactically necessary to correctly terminate the function expression and prevent potential parsing issues.
 
 # Game Logic Breakdown
 
