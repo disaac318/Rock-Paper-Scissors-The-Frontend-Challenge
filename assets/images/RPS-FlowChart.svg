@@ -44,11 +44,11 @@
         fill: #fff;
       }
 
-      .cls-13, .cls-10, .cls-14 {
+      .cls-13, .cls-10 {
         fill: #9e1f63;
       }
 
-      .cls-15 {
+      .cls-14 {
         letter-spacing: -.06em;
       }
 
@@ -61,32 +61,36 @@
         font-size: 18px;
       }
 
-      .cls-16 {
+      .cls-15 {
         letter-spacing: -.01em;
       }
 
-      .cls-17 {
+      .cls-16 {
         font-size: 14px;
       }
 
-      .cls-17, .cls-18, .cls-14, .cls-19, .cls-20 {
+      .cls-16, .cls-17, .cls-18, .cls-19, .cls-20 {
         font-family: Impact, Impact;
       }
 
-      .cls-17, .cls-20, .cls-21 {
+      .cls-16, .cls-20, .cls-21 {
         fill: #231f20;
       }
 
-      .cls-18 {
+      .cls-17 {
         fill: #009444;
       }
 
-      .cls-18, .cls-14, .cls-19, .cls-20, .cls-21 {
+      .cls-17, .cls-18, .cls-19, .cls-20, .cls-21 {
         font-size: 12px;
       }
 
+      .cls-18 {
+        fill: #00a14b;
+      }
+
       .cls-19 {
-        fill: #39b54a;
+        fill: #ec008c;
       }
 
       .cls-22 {
@@ -104,7 +108,7 @@
   <rect class="cls-5" x="388.04" y="45.47" width="71.92" height="26.18" rx="13.09" ry="13.09"/>
   <text class="cls-19" transform="translate(411.81 63.3)"><tspan x="0" y="0">S</tspan><tspan class="cls-8" x="6.21" y="0">T</tspan><tspan x="11.26" y="0">ART</tspan></text>
   <rect class="cls-5" x="388.04" y="459.63" width="71.92" height="26.18" rx="13.09" ry="13.09"/>
-  <text class="cls-14" transform="translate(411.81 477.47)"><tspan x="0" y="0">RES</tspan><tspan class="cls-16" x="17.65" y="0">E</tspan><tspan x="22.48" y="0">T</tspan></text>
+  <text class="cls-18" transform="translate(411.81 477.47)"><tspan x="0" y="0">RES</tspan><tspan class="cls-15" x="17.65" y="0">E</tspan><tspan x="22.48" y="0">T</tspan></text>
   <rect class="cls-6" x="102.91" y="121.33" width="81.55" height="20.65" rx="3.81" ry="3.81"/>
   <g>
     <rect class="cls-6" x="381.74" y="334.79" width="88.84" height="31.57" rx="3.27" ry="3.27"/>
@@ -112,7 +116,7 @@
   </g>
   <g>
     <rect class="cls-6" x="475.2" y="334.79" width="88.84" height="31.57" rx="3.27" ry="3.27"/>
-    <text class="cls-20" transform="translate(488.93 355.38)"><tspan x="0" y="0">P</tspan><tspan class="cls-4" x="6.02" y="0">L</tspan><tspan class="cls-15" x="10.89" y="0">A</tspan><tspan x="16.26" y="0">YER WINS</tspan></text>
+    <text class="cls-20" transform="translate(488.93 355.38)"><tspan x="0" y="0">P</tspan><tspan class="cls-4" x="6.02" y="0">L</tspan><tspan class="cls-14" x="10.89" y="0">A</tspan><tspan x="16.26" y="0">YER WINS</tspan></text>
   </g>
   <g>
     <rect class="cls-6" x="288.28" y="334.79" width="88.84" height="31.57" rx="3.27" ry="3.27"/>
@@ -124,7 +128,7 @@
   </g>
   <g>
     <rect class="cls-6" x="187.92" y="334.79" width="88.84" height="31.57" rx="3.27" ry="3.27"/>
-    <text class="cls-20" transform="translate(201.64 355.38)"><tspan x="0" y="0">P</tspan><tspan class="cls-4" x="6.02" y="0">L</tspan><tspan class="cls-15" x="10.89" y="0">A</tspan><tspan x="16.26" y="0">YER WINS</tspan></text>
+    <text class="cls-20" transform="translate(201.64 355.38)"><tspan x="0" y="0">P</tspan><tspan class="cls-4" x="6.02" y="0">L</tspan><tspan class="cls-14" x="10.89" y="0">A</tspan><tspan x="16.26" y="0">YER WINS</tspan></text>
   </g>
   <g>
     <rect class="cls-6" x="1" y="334.79" width="88.84" height="31.57" rx="3.27" ry="3.27"/>
@@ -136,7 +140,7 @@
   </g>
   <g>
     <rect class="cls-6" x="762.49" y="334.79" width="88.84" height="31.57" rx="3.27" ry="3.27"/>
-    <text class="cls-20" transform="translate(776.21 355.38)"><tspan x="0" y="0">P</tspan><tspan class="cls-4" x="6.02" y="0">L</tspan><tspan class="cls-15" x="10.89" y="0">A</tspan><tspan x="16.26" y="0">YER WINS</tspan></text>
+    <text class="cls-20" transform="translate(776.21 355.38)"><tspan x="0" y="0">P</tspan><tspan class="cls-4" x="6.02" y="0">L</tspan><tspan class="cls-14" x="10.89" y="0">A</tspan><tspan x="16.26" y="0">YER WINS</tspan></text>
   </g>
   <g>
     <rect class="cls-6" x="575.57" y="334.79" width="88.84" height="31.57" rx="3.27" ry="3.27"/>
@@ -178,38 +182,40 @@
   </g>
   <path class="cls-7" d="M761.41,248.2h43.64c3.34,0,6.04,2.71,6.04,6.04v70.34"/>
   <polygon class="cls-13" points="811.1 333.46 805.97 324.58 816.23 324.58 811.1 333.46"/>
-  <rect class="cls-12" x="303.91" y="291.2" width="53.91" height="13.71"/>
-  <rect class="cls-12" x="23.62" y="291.2" width="53.91" height="13.71"/>
-  <rect class="cls-12" x="116.02" y="291.2" width="53.91" height="13.71"/>
-  <rect class="cls-12" x="211.76" y="291.2" width="53.91" height="13.71"/>
-  <rect class="cls-12" x="398.23" y="291.2" width="53.91" height="13.71"/>
-  <rect class="cls-12" x="492.86" y="291.2" width="53.91" height="13.71"/>
-  <rect class="cls-12" x="596.58" y="291.2" width="53.91" height="13.71"/>
-  <rect class="cls-12" x="689.55" y="291.2" width="53.91" height="13.71"/>
-  <rect class="cls-12" x="784.15" y="291.2" width="53.91" height="13.71"/>
-  <text class="cls-18" transform="translate(307.78 302.76)"><tspan x="0" y="0">SCISSORS</tspan></text>
-  <text class="cls-18" transform="translate(411.13 302.76)"><tspan class="cls-22" x="0" y="0">P</tspan><tspan x="5.72" y="0">APER</tspan></text>
-  <text class="cls-18" transform="translate(506.94 302.76)"><tspan x="0" y="0">ROCK</tspan></text>
+  <rect class="cls-12" x="303.91" y="287.92" width="53.91" height="20.25"/>
+  <rect class="cls-12" x="23.62" y="287.92" width="53.91" height="20.25"/>
+  <rect class="cls-12" x="116.02" y="287.92" width="53.91" height="20.25"/>
+  <rect class="cls-12" x="211.76" y="287.92" width="53.91" height="20.25"/>
+  <rect class="cls-12" x="398.23" y="287.92" width="53.91" height="20.25"/>
+  <rect class="cls-12" x="492.86" y="287.92" width="53.91" height="20.25"/>
+  <rect class="cls-12" x="596.58" y="287.92" width="53.91" height="20.25"/>
+  <rect class="cls-12" x="689.55" y="287.92" width="53.91" height="20.25"/>
+  <rect class="cls-12" x="784.15" y="287.92" width="53.91" height="20.25"/>
+  <text class="cls-17" transform="translate(307.78 302.76)"><tspan x="0" y="0">SCISSORS</tspan></text>
+  <text class="cls-17" transform="translate(411.13 302.76)"><tspan class="cls-22" x="0" y="0">P</tspan><tspan x="5.72" y="0">APER</tspan></text>
+  <text class="cls-17" transform="translate(506.94 302.76)"><tspan x="0" y="0">ROCK</tspan></text>
   <polygon class="cls-6" points="425.51 281.59 381.09 248.17 425.51 213.75 469.93 248.17 425.51 281.59"/>
-  <text class="cls-18" transform="translate(399.83 247.67)"><tspan x="0" y="0">COMPUTER</tspan><tspan x="10.4" y="14.4">GUESS</tspan></text>
+  <text class="cls-17" transform="translate(399.83 247.67)"><tspan x="0" y="0">COMPUTER</tspan><tspan x="10.4" y="14.4">GUESS</tspan></text>
   <polygon class="cls-6" points="143.96 281.59 99.54 248.17 143.96 213.75 188.38 248.17 143.96 281.59"/>
-  <text class="cls-18" transform="translate(118.28 247.67)"><tspan x="0" y="0">COMPUTER</tspan><tspan x="10.4" y="14.4">GUESS</tspan></text>
-  <text class="cls-18" transform="translate(36.9 302.76)"><tspan x="0" y="0">ROCK</tspan></text>
-  <text class="cls-18" transform="translate(214.74 302.76)"><tspan x="0" y="0">SCISSORS</tspan></text>
-  <text class="cls-18" transform="translate(128.95 302.76)"><tspan class="cls-22" x="0" y="0">P</tspan><tspan x="5.72" y="0">APER</tspan></text>
+  <text class="cls-17" transform="translate(118.28 247.67)"><tspan x="0" y="0">COMPUTER</tspan><tspan x="10.4" y="14.4">GUESS</tspan></text>
+  <text class="cls-17" transform="translate(36.9 302.76)"><tspan x="0" y="0">ROCK</tspan></text>
+  <text class="cls-17" transform="translate(214.74 302.76)"><tspan x="0" y="0">SCISSORS</tspan></text>
+  <text class="cls-17" transform="translate(128.95 302.76)"><tspan class="cls-22" x="0" y="0">P</tspan><tspan x="5.72" y="0">APER</tspan></text>
   <polygon class="cls-6" points="717.32 281.59 672.9 248.17 717.32 213.75 761.74 248.17 717.32 281.59"/>
-  <text class="cls-18" transform="translate(691.63 247.67)"><tspan x="0" y="0">COMPUTER</tspan><tspan x="10.4" y="14.4">GUESS</tspan></text>
+  <text class="cls-17" transform="translate(691.63 247.67)"><tspan x="0" y="0">COMPUTER</tspan><tspan x="10.4" y="14.4">GUESS</tspan></text>
   <text class="cls-20" transform="translate(130.35 136.39)"><tspan x="0" y="0">ROCK</tspan></text>
-  <rect class="cls-6" x="565.97" y="121.33" width="81.55" height="20.65" rx="3.81" ry="3.81"/>
-  <text class="cls-20" transform="translate(582.78 136.39)"><tspan x="0" y="0">SCISSORS</tspan></text>
+  <g>
+    <rect class="cls-6" x="676.54" y="121.33" width="81.55" height="20.65" rx="3.81" ry="3.81"/>
+    <text class="cls-20" transform="translate(693.35 136.39)"><tspan x="0" y="0">SCISSORS</tspan></text>
+  </g>
   <line class="cls-7" x1="425.51" y1="71.65" x2="425.51" y2="213.75"/>
-  <polygon class="cls-6" points="425.51 165.77 381.09 132.35 425.51 97.93 469.93 132.35 425.51 165.77"/>
-  <text class="cls-17" transform="translate(407.3 131.72)"><tspan x="0" y="0">P</tspan><tspan class="cls-4" x="7.03" y="0">L</tspan><tspan class="cls-15" x="12.7" y="0">A</tspan><tspan x="18.97" y="0">YER</tspan><tspan x="0" y="12.4">GUESS</tspan></text>
+  <polygon class="cls-6" points="425.51 165.16 381.09 131.74 425.51 97.32 469.93 131.74 425.51 165.16"/>
+  <text class="cls-16" transform="translate(407.3 131.11)"><tspan x="0" y="0">P</tspan><tspan class="cls-4" x="7.03" y="0">L</tspan><tspan class="cls-14" x="12.7" y="0">A</tspan><tspan x="18.97" y="0">YER</tspan><tspan x="0" y="12.4">GUESS</tspan></text>
   <rect class="cls-6" x="384.73" y="179.44" width="81.55" height="20.65" rx="3.81" ry="3.81"/>
   <text class="cls-20" transform="translate(412.18 194.5)"><tspan class="cls-22" x="0" y="0">P</tspan><tspan x="5.72" y="0">APER</tspan></text>
-  <text class="cls-18" transform="translate(611.54 302.76)"><tspan x="0" y="0">ROCK</tspan></text>
-  <text class="cls-18" transform="translate(798.65 302.76)"><tspan class="cls-22" x="0" y="0">P</tspan><tspan x="5.72" y="0">APER</tspan></text>
-  <text class="cls-18" transform="translate(693.22 302.76)"><tspan x="0" y="0">SCISSORS</tspan></text>
+  <text class="cls-17" transform="translate(611.54 302.76)"><tspan x="0" y="0">ROCK</tspan></text>
+  <text class="cls-17" transform="translate(798.65 302.76)"><tspan class="cls-22" x="0" y="0">P</tspan><tspan x="5.72" y="0">APER</tspan></text>
+  <text class="cls-17" transform="translate(693.22 302.76)"><tspan x="0" y="0">SCISSORS</tspan></text>
   <text class="cls-10" transform="translate(244.15 525.08)"><tspan x="0" y="0">Rock Paper Scissors Game Logic Diagram </tspan></text>
   <text class="cls-21" transform="translate(247.01 540.94)"><tspan class="cls-2" x="0" y="0">Created using</tspan><tspan class="cls-3" x="74.71" y="0"> </tspan><tspan class="cls-2" x="77.38" y="0">Adobe Illustrator by </tspan><tspan class="cls-11" x="184.11" y="0">Dean Isaac (The</tspan><tspan class="cls-9" x="275.48" y="0"> </tspan><tspan class="cls-11" x="278.37" y="0">App</tspan><tspan class="cls-9" x="301.69" y="0"> </tspan><tspan class="cls-11" x="304.58" y="0">Alchemy)</tspan></text>
 </svg>

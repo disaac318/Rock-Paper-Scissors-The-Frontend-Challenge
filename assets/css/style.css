@@ -11,7 +11,7 @@
 
 body {
    /* Light purple background tint for subtle visual texture */
-   background-color: rgba(189, 33, 232, 0.1);
+   background-color: #F4E5F1;
 }
 
 /* ===================================================================
@@ -50,7 +50,7 @@ body {
    width: 100%;
    backface-visibility: hidden;
    /* Hides reverse when flipped */
-   background-color: rgba(189, 33, 232, 0);
+   background-color: #F4E5F1;
    border-radius: 0.5rem;
    padding-bottom: 32px;
 }
@@ -83,7 +83,7 @@ body {
    padding: 8px 24px;
    font-size: 1rem;
    color: #fff;
-   background-color: #c6069c;
+   background-color:#006400;
    border: none;
    border-radius: 3rem;
    cursor: pointer;
@@ -108,7 +108,7 @@ body {
 .reset-btn {
    width: 100%;
    margin-top: 1rem;
-   color: darkgreen;
+   color: #006400;
    border: none;
    background-color: transparent;
 }
@@ -176,7 +176,7 @@ body {
 .computer-score h2,
 .winner {
    font-family: "Acme", sans-serif;
-   color: #a20380;
+   color: #990099;
 }
 
 #game-title h1 {
@@ -200,7 +200,7 @@ body {
    width: 100%;
    font-size: 1.1rem;
    line-height: 1.5rem;
-   color: #424042;
+   color: #330033;
    margin-top: 1rem;
 }
 
@@ -226,7 +226,7 @@ body {
 .player-score p,
 .computer-score p {
    font-weight: 800;
-   color: #f7be04;
+   color: #ffc107;
    /* Golden yellow for scores */
    text-align: center;
    font-size: 4rem;
